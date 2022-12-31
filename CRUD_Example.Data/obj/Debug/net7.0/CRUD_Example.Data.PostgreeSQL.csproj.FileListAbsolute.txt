@@ -1,0 +1,15 @@
+D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.Data.PostgreeSQL\bin\Debug\net7.0\CRUD_Example.Data.PostgreeSQL.deps.json
+D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.Data.PostgreeSQL\bin\Debug\net7.0\CRUD_Example.Data.PostgreeSQL.dll
+D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.Data.PostgreeSQL\bin\Debug\net7.0\CRUD_Example.Data.PostgreeSQL.pdb
+D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.Data.PostgreeSQL\bin\Debug\net7.0\CRUD_Example.Core.dll
+D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.Data.PostgreeSQL\bin\Debug\net7.0\CRUD_Example.Core.pdb
+D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.Data.PostgreeSQL\obj\Debug\net7.0\CRUD_Example.Data.PostgreeSQL.csproj.AssemblyReference.cache
+D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.Data.PostgreeSQL\obj\Debug\net7.0\CRUD_Example.Data.PostgreeSQL.GeneratedMSBuildEditorConfig.editorconfig
+D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.Data.PostgreeSQL\obj\Debug\net7.0\CRUD_Example.Data.PostgreeSQL.AssemblyInfoInputs.cache
+D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.Data.PostgreeSQL\obj\Debug\net7.0\CRUD_Example.Data.PostgreeSQL.AssemblyInfo.cs
+D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.Data.PostgreeSQL\obj\Debug\net7.0\CRUD_Example.Data.PostgreeSQL.csproj.CoreCompileInputs.cache
+D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.Data.PostgreeSQL\obj\Debug\net7.0\CRUD_Example.Data.PostgreeSQL.csproj.CopyComplete
+D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.Data.PostgreeSQL\obj\Debug\net7.0\CRUD_Example.Data.PostgreeSQL.dll
+D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.Data.PostgreeSQL\obj\Debug\net7.0\refint\CRUD_Example.Data.PostgreeSQL.dll
+D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.Data.PostgreeSQL\obj\Debug\net7.0\CRUD_Example.Data.PostgreeSQL.pdb
+D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.Data.PostgreeSQL\obj\Debug\net7.0\ref\CRUD_Example.Data.PostgreeSQL.dll

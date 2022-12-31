@@ -1,0 +1,12 @@
+D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.Core\bin\Debug\net7.0\CRUD_Example.Core.deps.json
+D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.Core\bin\Debug\net7.0\CRUD_Example.Core.dll
+D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.Core\bin\Debug\net7.0\CRUD_Example.Core.pdb
+D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.Core\obj\Debug\net7.0\CRUD_Example.Core.csproj.AssemblyReference.cache
+D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.Core\obj\Debug\net7.0\CRUD_Example.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.Core\obj\Debug\net7.0\CRUD_Example.Core.AssemblyInfoInputs.cache
+D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.Core\obj\Debug\net7.0\CRUD_Example.Core.AssemblyInfo.cs
+D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.Core\obj\Debug\net7.0\CRUD_Example.Core.csproj.CoreCompileInputs.cache
+D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.Core\obj\Debug\net7.0\CRUD_Example.Core.dll
+D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.Core\obj\Debug\net7.0\refint\CRUD_Example.Core.dll
+D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.Core\obj\Debug\net7.0\CRUD_Example.Core.pdb
+D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.Core\obj\Debug\net7.0\ref\CRUD_Example.Core.dll

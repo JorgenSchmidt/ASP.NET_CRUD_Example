@@ -1,0 +1,11 @@
+2022-12-31 20:35:22.2423|0|INFO|CRUD_Example.WEB_API|Log |url: |action: |Program.<Main>$
+2022-12-31 20:35:23.1804|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2022-12-31 20:35:23.2001|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2022-12-31 20:35:23.2001|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2022-12-31 20:35:48.2446|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S) GetAll method: Response has been sent |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2022-12-31 20:37:51.4701|0|INFO|CRUD_Example.WEB_API|Log |url: |action: |Program.<Main>$
+2022-12-31 20:37:52.1396|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2022-12-31 20:37:52.1654|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2022-12-31 20:37:52.1654|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2022-12-31 20:38:07.7312|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(E) SurveyService.GetAll method: Error has been detected: System.Exception: Test by Exceptions
+   at CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll() in D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.Data\Services\SurveyService.cs:line 23 |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
