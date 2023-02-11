@@ -11,3 +11,70 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.font-center {
+  text-align: center;
+}
+
+.font-justify {
+  text-align: justify;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.font-large {
+  font-size: 4vw;
+}
+
+.font-medium {
+  font-size: 3.3vw;
+}
+
+.font-small {
+  font-size: 2.6vw;
+}
+
+.font-verysmall {
+  font-size: 2vw;
+}
+
+.font-white {
+  color: white;
+}
+
+.font-red {
+  color: red;
+}
+
+.font-blue {
+  color:blue;
+}
+
+.font-indent{
+  margin-left: 2%;
+}
+
+.font-twiceindent{
+  margin-left: 4%;
+}
+
+@media screen and (min-width: 725px) {
+  .font-large {
+    font-size: 2.7vw;
+  }
+  
+  .font-medium {
+    font-size: 1.8vw;
+  }
+
+  .font-small {
+    font-size: 1.07vw;
+  }
+
+  .font-verysmall {
+    font-size: 0.9vw
+  }
+
+}

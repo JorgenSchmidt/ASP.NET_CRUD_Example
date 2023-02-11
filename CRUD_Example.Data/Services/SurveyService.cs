@@ -25,7 +25,8 @@ namespace CRUD_Example.Data.PostgreeSQL.Services
                 {
                     Body = new List<SurveyData> 
                     { 
-                        new SurveyData { Id = 1, AnomalyType = "Gravity", Description = "13", Values = new List<SurveyValues> { new SurveyValues { Coord_X = 1.2, Coord_Y = 40.2, Value = 0.131 }, new SurveyValues { Coord_X = 8.3, Coord_Y = 42.1, Value = 0.171 } } } 
+                        new SurveyData { Id = 1, AnomalyType = "Gravity", Description = "Sverdlovsk region, gravity survey data in the southwest within the city of Bakal", Values = new List<SurveyValues> { new SurveyValues { Coord_X = 1.2, Coord_Y = 40.2, Value = 0.131 }, new SurveyValues { Coord_X = 8.2, Coord_Y = 42.1, Value = 0.171 } } },
+                        new SurveyData { Id = 2, AnomalyType = "Gravity", Description = "Sverdlovsk region, gravity survey data in the southwest within the city of Bakal", Values = new List<SurveyValues> { new SurveyValues { Coord_X = 1.2, Coord_Y = 45.2, Value = 0.242 }, new SurveyValues { Coord_X = 8.3, Coord_Y = 45.1, Value = 0.121 } } }
                     },
                     Status = ResponseStatus.Ok
                 };
