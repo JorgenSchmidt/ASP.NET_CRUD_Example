@@ -4,10 +4,21 @@ namespace CRUD_Example.Core.Entities
 {
     public class SurveyData
     {
-        [Key]
+        /// <summary>
+        /// ID 
+        /// </summary>
         public int Id { get; set; }
+        /// <summary>
+        /// Type of anomaly
+        /// </summary>
         public string? AnomalyType { get; set; }
+        /// <summary>
+        /// Description of value list
+        /// </summary>
         public string? Description { get; set; }
-        public List<SurveyValues>? Values { get; set; }
+        /// <summary>
+        /// Values of anomalies on searched area
+        /// </summary>
+        public List<SurveyValue>? Values { get; set; }
     }
 }

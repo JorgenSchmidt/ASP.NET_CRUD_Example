@@ -2,6 +2,9 @@
 
 namespace CRUD_Example.Core.Interfaces.Responses
 {
+    /// <summary>
+    /// Base response interface with only one field for status of request
+    /// </summary>
     public interface IBaseResponse
     {
         /// <summary>

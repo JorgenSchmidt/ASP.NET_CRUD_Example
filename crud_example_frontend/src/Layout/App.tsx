@@ -4,6 +4,7 @@ import './AppStyles.css';
 import { NavButton } from './Buttons/NavButton';
 import DataAdd from './MainElements/DataAdd';
 import DataView from './MainElements/DataView';
+import DataViewByID from './MainElements/DataViewByID';
 
 class App extends Component {
   render() {
@@ -41,6 +42,7 @@ class App extends Component {
         <div className="main-main">
           <Routes>
             <Route path="/" element={<DataView/>}/>
+            <Route path="el/:name" element={<DataViewByID/>}/>
             <Route path="/add" element={<DataAdd/>}/>
           </Routes>
         </div>

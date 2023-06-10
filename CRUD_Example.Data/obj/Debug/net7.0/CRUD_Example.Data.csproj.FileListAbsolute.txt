@@ -13,3 +13,5 @@ D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.Data\obj\Debug\net7.0\CRUD_Exa
 D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.Data\obj\Debug\net7.0\refint\CRUD_Example.Data.dll
 D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.Data\obj\Debug\net7.0\CRUD_Example.Data.pdb
 D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.Data\obj\Debug\net7.0\ref\CRUD_Example.Data.dll
+D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.Data\bin\Debug\net7.0\CRUD_Example.DAL.NPGSQL.dll
+D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.Data\bin\Debug\net7.0\CRUD_Example.DAL.NPGSQL.pdb

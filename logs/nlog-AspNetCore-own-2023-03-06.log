@@ -1,0 +1,272 @@
+2023-03-06 09:54:24.5266|0|INFO|CRUD_Example.WEB_API|Log |url: |action: |Program.<Main>$
+2023-03-06 09:54:25.3658|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-06 09:54:25.3828|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-06 09:54:25.3938|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-03-06 09:56:16.4994|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (AddEntity method) |url: https://localhost/api/Survey/add-entity|action: AddEntity|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.AddEntity
+2023-03-06 09:59:45.1193|20102|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (22ms) [Parameters=[@p2='?' (DbType = Int32), @p3='?' (DbType = Double), @p4='?' (DbType = Double), @p5='?' (DbType = Int32), @p6='?' (DbType = Double), @p7='?' (DbType = Int32), @p8='?' (DbType = Double), @p9='?' (DbType = Double), @p10='?' (DbType = Int32), @p11='?' (DbType = Double)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "SurveyValues" ("Id", "Coord_X", "Coord_Y", "SurveyDataId", "Value")
+VALUES (@p2, @p3, @p4, @p5, @p6);
+INSERT INTO "SurveyValues" ("Id", "Coord_X", "Coord_Y", "SurveyDataId", "Value")
+VALUES (@p7, @p8, @p9, @p10, @p11); |url: https://localhost/api/Survey/add-entity|action: AddEntity|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log
+2023-03-06 09:59:45.1932|10000|ERROR|Microsoft.EntityFrameworkCore.Update|An exception occurred in the database while saving changes for context type 'CRUD_Example.DAL.NPGSQL.EfContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: повторяющееся значение ключа нарушает ограничение уникальности "PK_SurveyValues"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|226_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ОШИБКА
+    SqlState: 23505
+    MessageText: повторяющееся значение ключа нарушает ограничение уникальности "PK_SurveyValues"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: SurveyValues
+    ConstraintName: PK_SurveyValues
+    File: nbtinsert.c
+    Line: 670
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken) Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: повторяющееся значение ключа нарушает ограничение уникальности "PK_SurveyValues"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|226_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ОШИБКА
+    SqlState: 23505
+    MessageText: повторяющееся значение ключа нарушает ограничение уникальности "PK_SurveyValues"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: SurveyValues
+    ConstraintName: PK_SurveyValues
+    File: nbtinsert.c
+    Line: 670
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)|url: https://localhost/api/Survey/add-entity|action: AddEntity|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`3.Log
+2023-03-06 09:59:45.3070|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(E): Error in AddEntity method: Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: повторяющееся значение ключа нарушает ограничение уникальности "PK_SurveyValues"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|226_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ОШИБКА
+    SqlState: 23505
+    MessageText: повторяющееся значение ключа нарушает ограничение уникальности "PK_SurveyValues"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: SurveyValues
+    ConstraintName: PK_SurveyValues
+    File: nbtinsert.c
+    Line: 670
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at CRUD_Example.Data.PostgreeSQL.Services.SurveyService.AddEntity(SurveyData data) in D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.Data\Services\SurveyService.cs:line 59 |url: https://localhost/api/Survey/add-entity|action: AddEntity|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.AddEntity
+2023-03-06 10:01:50.3845|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (AddEntity method) |url: https://localhost/api/Survey/add-entity|action: AddEntity|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.AddEntity
+2023-03-06 10:25:35.9640|0|INFO|CRUD_Example.WEB_API|Log |url: |action: |Program.<Main>$
+2023-03-06 10:25:36.8521|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-06 10:25:36.8736|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-06 10:25:36.8736|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-03-06 12:03:40.4837|0|INFO|CRUD_Example.WEB_API|Log |url: |action: |Program.<Main>$
+2023-03-06 12:03:41.3123|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-06 12:03:41.3410|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-06 12:03:41.3410|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-03-06 19:12:23.8860|0|INFO|CRUD_Example.WEB_API|Log |url: |action: |Program.<Main>$
+2023-03-06 19:12:24.7144|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-06 19:12:24.7333|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-06 19:12:24.7333|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-03-06 19:12:36.1681|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-03-06 19:15:11.9239|0|INFO|CRUD_Example.WEB_API|Log |url: |action: |Program.<Main>$
+2023-03-06 19:15:12.4732|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-06 19:15:12.4926|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-06 19:15:12.4926|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-03-06 19:15:49.4222|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-03-06 19:15:51.9780|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-03-06 19:16:00.9632|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-03-06 19:16:01.0357|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-03-06 19:18:49.2459|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-03-06 19:18:49.2759|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-03-06 19:19:20.3415|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-03-06 19:19:20.3849|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-03-06 19:20:51.0188|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-03-06 19:20:51.0407|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-03-06 19:20:56.1425|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-03-06 19:20:56.3999|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-03-06 19:20:59.2816|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-03-06 19:20:59.3285|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-03-06 19:21:02.1222|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-03-06 19:21:02.1222|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-03-06 19:21:04.6632|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-03-06 19:21:04.6666|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-03-06 19:23:21.7475|0|INFO|CRUD_Example.WEB_API|Log |url: |action: |Program.<Main>$
+2023-03-06 19:23:22.3760|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-06 19:23:22.3997|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-06 19:23:22.3997|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-03-06 19:23:38.7434|0|INFO|CRUD_Example.WEB_API|Log |url: |action: |Program.<Main>$
+2023-03-06 19:23:39.3169|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-06 19:23:39.3435|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-06 19:23:39.3435|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-03-06 19:23:54.3246|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-03-06 19:23:56.7281|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-03-06 19:25:46.4791|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-03-06 19:28:27.1321|20102|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (32ms) [Parameters=[@p2='?' (DbType = Double), @p3='?' (DbType = Double), @p4='?' (DbType = Int32), @p5='?' (DbType = Double), @p6='?' (DbType = Double), @p7='?' (DbType = Double), @p8='?' (DbType = Int32), @p9='?' (DbType = Double), @p10='?' (DbType = Double), @p11='?' (DbType = Double), @p12='?' (DbType = Int32), @p13='?' (DbType = Double), @p14='?' (DbType = Double), @p15='?' (DbType = Double), @p16='?' (DbType = Int32), @p17='?' (DbType = Double)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "SurveyValues" ("Coord_X", "Coord_Y", "SurveyDataId", "Value")
+VALUES (@p2, @p3, @p4, @p5)
+RETURNING "Id";
+INSERT INTO "SurveyValues" ("Coord_X", "Coord_Y", "SurveyDataId", "Value")
+VALUES (@p6, @p7, @p8, @p9)
+RETURNING "Id";
+INSERT INTO "SurveyValues" ("Coord_X", "Coord_Y", "SurveyDataId", "Value")
+VALUES (@p10, @p11, @p12, @p13)
+RETURNING "Id";
+INSERT INTO "SurveyValues" ("Coord_X", "Coord_Y", "SurveyDataId", "Value")
+VALUES (@p14, @p15, @p16, @p17)
+RETURNING "Id"; |url: https://localhost/api/Survey/add-entity|action: AddEntity|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log
+2023-03-06 19:28:27.2243|10000|ERROR|Microsoft.EntityFrameworkCore.Update|An exception occurred in the database while saving changes for context type 'CRUD_Example.DAL.NPGSQL.EfContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: повторяющееся значение ключа нарушает ограничение уникальности "PK_SurveyValues"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|226_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ОШИБКА
+    SqlState: 23505
+    MessageText: повторяющееся значение ключа нарушает ограничение уникальности "PK_SurveyValues"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: SurveyValues
+    ConstraintName: PK_SurveyValues
+    File: nbtinsert.c
+    Line: 670
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken) Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: повторяющееся значение ключа нарушает ограничение уникальности "PK_SurveyValues"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|226_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ОШИБКА
+    SqlState: 23505
+    MessageText: повторяющееся значение ключа нарушает ограничение уникальности "PK_SurveyValues"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: SurveyValues
+    ConstraintName: PK_SurveyValues
+    File: nbtinsert.c
+    Line: 670
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)|url: https://localhost/api/Survey/add-entity|action: AddEntity|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`3.Log
+2023-03-06 19:28:27.3511|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(E): Error in AddEntity method: Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: повторяющееся значение ключа нарушает ограничение уникальности "PK_SurveyValues"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|226_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ОШИБКА
+    SqlState: 23505
+    MessageText: повторяющееся значение ключа нарушает ограничение уникальности "PK_SurveyValues"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: SurveyValues
+    ConstraintName: PK_SurveyValues
+    File: nbtinsert.c
+    Line: 670
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at CRUD_Example.Data.PostgreeSQL.Services.SurveyService.AddEntity(SurveyData data) in D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.Data\Services\SurveyService.cs:line 59 |url: https://localhost/api/Survey/add-entity|action: AddEntity|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.AddEntity

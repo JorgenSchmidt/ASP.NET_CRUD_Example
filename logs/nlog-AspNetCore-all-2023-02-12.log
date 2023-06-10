@@ -1,0 +1,280 @@
+2023-02-12 00:51:19.1512|0|INFO|CRUD_Example.WEB_API|Log 
+2023-02-12 00:51:19.4168|4|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with no compiled views. 
+2023-02-12 00:51:19.4615|12|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2023-02-12 00:51:19.5542|63|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Joe\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-02-12 00:51:20.1318|1|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2023-02-12 00:51:20.1506|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Joe\AppData\Local\ASP.NET\DataProtection-Keys\key-035a95ba-dfc9-41ca-a3bc-e4d76005e8a5.xml'. 
+2023-02-12 00:51:20.1741|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Joe\AppData\Local\ASP.NET\DataProtection-Keys\key-08ffd06e-1c60-4e98-9ba7-26d0e1b1024b.xml'. 
+2023-02-12 00:51:20.1741|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Joe\AppData\Local\ASP.NET\DataProtection-Keys\key-14efe11d-a79b-41d4-ad02-1697253649d4.xml'. 
+2023-02-12 00:51:20.1741|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Joe\AppData\Local\ASP.NET\DataProtection-Keys\key-d773c006-43cf-4502-aac7-aaa18a5b1da5.xml'. 
+2023-02-12 00:51:20.1741|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Joe\AppData\Local\ASP.NET\DataProtection-Keys\key-e401f7ac-e8d1-48ba-8f49-54feee25205f.xml'. 
+2023-02-12 00:51:20.1879|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {035a95ba-dfc9-41ca-a3bc-e4d76005e8a5}. 
+2023-02-12 00:51:20.1993|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {08ffd06e-1c60-4e98-9ba7-26d0e1b1024b}. 
+2023-02-12 00:51:20.1993|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {14efe11d-a79b-41d4-ad02-1697253649d4}. 
+2023-02-12 00:51:20.1993|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {d773c006-43cf-4502-aac7-aaa18a5b1da5}. 
+2023-02-12 00:51:20.1993|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {e401f7ac-e8d1-48ba-8f49-54feee25205f}. 
+2023-02-12 00:51:20.1993|13|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {08ffd06e-1c60-4e98-9ba7-26d0e1b1024b} with expiration date 2023-03-31 14:40:14Z as default key. 
+2023-02-12 00:51:20.2197|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2023-02-12 00:51:20.2197|51|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI. 
+2023-02-12 00:51:20.2197|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2023-02-12 00:51:20.2197|4|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2023-02-12 00:51:20.2302|3|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2023-02-12 00:51:20.2302|2|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {08ffd06e-1c60-4e98-9ba7-26d0e1b1024b} as the default key. 
+2023-02-12 00:51:20.2302|65|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {08ffd06e-1c60-4e98-9ba7-26d0e1b1024b} was loaded during application startup. 
+2023-02-12 00:51:20.5029|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly CRUD_Example.WEB_API 
+2023-02-12 00:51:20.5029|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2023-02-12 00:51:20.5029|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2023-02-12 00:51:20.5029|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-02-12 00:51:20.5640|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-02-12 00:51:20.5640|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND 
+2023-02-12 00:51:20.5640|2|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2023-02-12 00:51:20.6411|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44387/ - - 
+2023-02-12 00:51:20.7517|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2023-02-12 00:51:20.7517|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-02-12 00:51:20.8384|1000|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/' 
+2023-02-12 00:51:20.8384|2|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-02-12 00:51:20.9310|3|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2023-02-12 00:51:21.0654|1|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18230571314681217025" disconnecting. 
+2023-02-12 00:51:21.0654|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44387/ - - - 404 - - 428.9669ms 
+2023-02-12 00:53:14.0642|0|INFO|CRUD_Example.WEB_API|Log 
+2023-02-12 00:53:14.2152|4|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with no compiled views. 
+2023-02-12 00:53:14.2444|12|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2023-02-12 00:53:14.2974|63|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Joe\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-02-12 00:53:14.4408|1|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2023-02-12 00:53:14.4518|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Joe\AppData\Local\ASP.NET\DataProtection-Keys\key-035a95ba-dfc9-41ca-a3bc-e4d76005e8a5.xml'. 
+2023-02-12 00:53:14.4660|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Joe\AppData\Local\ASP.NET\DataProtection-Keys\key-08ffd06e-1c60-4e98-9ba7-26d0e1b1024b.xml'. 
+2023-02-12 00:53:14.4660|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Joe\AppData\Local\ASP.NET\DataProtection-Keys\key-14efe11d-a79b-41d4-ad02-1697253649d4.xml'. 
+2023-02-12 00:53:14.4660|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Joe\AppData\Local\ASP.NET\DataProtection-Keys\key-d773c006-43cf-4502-aac7-aaa18a5b1da5.xml'. 
+2023-02-12 00:53:14.4660|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Joe\AppData\Local\ASP.NET\DataProtection-Keys\key-e401f7ac-e8d1-48ba-8f49-54feee25205f.xml'. 
+2023-02-12 00:53:14.4660|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {035a95ba-dfc9-41ca-a3bc-e4d76005e8a5}. 
+2023-02-12 00:53:14.4660|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {08ffd06e-1c60-4e98-9ba7-26d0e1b1024b}. 
+2023-02-12 00:53:14.4660|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {14efe11d-a79b-41d4-ad02-1697253649d4}. 
+2023-02-12 00:53:14.4660|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {d773c006-43cf-4502-aac7-aaa18a5b1da5}. 
+2023-02-12 00:53:14.4660|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {e401f7ac-e8d1-48ba-8f49-54feee25205f}. 
+2023-02-12 00:53:14.4888|13|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {08ffd06e-1c60-4e98-9ba7-26d0e1b1024b} with expiration date 2023-03-31 14:40:14Z as default key. 
+2023-02-12 00:53:14.4888|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2023-02-12 00:53:14.4888|51|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI. 
+2023-02-12 00:53:14.4888|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2023-02-12 00:53:14.4978|4|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2023-02-12 00:53:14.4978|3|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2023-02-12 00:53:14.4978|2|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {08ffd06e-1c60-4e98-9ba7-26d0e1b1024b} as the default key. 
+2023-02-12 00:53:14.4978|65|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {08ffd06e-1c60-4e98-9ba7-26d0e1b1024b} was loaded during application startup. 
+2023-02-12 00:53:14.6408|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly CRUD_Example.WEB_API 
+2023-02-12 00:53:14.6408|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2023-02-12 00:53:14.6408|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2023-02-12 00:53:14.6408|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-02-12 00:53:14.6656|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-02-12 00:53:14.6656|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND 
+2023-02-12 00:53:14.6656|2|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2023-02-12 00:53:14.7103|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44387/ - - 
+2023-02-12 00:53:14.7458|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2023-02-12 00:53:14.7458|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-02-12 00:53:14.7798|1000|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/' 
+2023-02-12 00:53:14.7798|2|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-02-12 00:53:14.8200|3|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2023-02-12 00:53:14.8717|1|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18230571297501347842" disconnecting. 
+2023-02-12 00:53:14.8717|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44387/ - - - 404 - - 166.4562ms 
+2023-02-12 00:56:03.6865|0|INFO|CRUD_Example.WEB_API|Log 
+2023-02-12 00:56:03.8604|4|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with no compiled views. 
+2023-02-12 00:56:03.8869|12|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2023-02-12 00:56:03.9405|63|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Joe\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-02-12 00:56:04.0602|1|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2023-02-12 00:56:04.0602|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Joe\AppData\Local\ASP.NET\DataProtection-Keys\key-035a95ba-dfc9-41ca-a3bc-e4d76005e8a5.xml'. 
+2023-02-12 00:56:04.0823|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Joe\AppData\Local\ASP.NET\DataProtection-Keys\key-08ffd06e-1c60-4e98-9ba7-26d0e1b1024b.xml'. 
+2023-02-12 00:56:04.0823|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Joe\AppData\Local\ASP.NET\DataProtection-Keys\key-14efe11d-a79b-41d4-ad02-1697253649d4.xml'. 
+2023-02-12 00:56:04.0823|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Joe\AppData\Local\ASP.NET\DataProtection-Keys\key-d773c006-43cf-4502-aac7-aaa18a5b1da5.xml'. 
+2023-02-12 00:56:04.0823|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Joe\AppData\Local\ASP.NET\DataProtection-Keys\key-e401f7ac-e8d1-48ba-8f49-54feee25205f.xml'. 
+2023-02-12 00:56:04.0823|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {035a95ba-dfc9-41ca-a3bc-e4d76005e8a5}. 
+2023-02-12 00:56:04.0912|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {08ffd06e-1c60-4e98-9ba7-26d0e1b1024b}. 
+2023-02-12 00:56:04.0912|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {14efe11d-a79b-41d4-ad02-1697253649d4}. 
+2023-02-12 00:56:04.0912|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {d773c006-43cf-4502-aac7-aaa18a5b1da5}. 
+2023-02-12 00:56:04.0912|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {e401f7ac-e8d1-48ba-8f49-54feee25205f}. 
+2023-02-12 00:56:04.0912|13|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {08ffd06e-1c60-4e98-9ba7-26d0e1b1024b} with expiration date 2023-03-31 14:40:14Z as default key. 
+2023-02-12 00:56:04.0912|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2023-02-12 00:56:04.0912|51|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI. 
+2023-02-12 00:56:04.1060|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2023-02-12 00:56:04.1060|4|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2023-02-12 00:56:04.1060|3|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2023-02-12 00:56:04.1060|2|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {08ffd06e-1c60-4e98-9ba7-26d0e1b1024b} as the default key. 
+2023-02-12 00:56:04.1060|65|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {08ffd06e-1c60-4e98-9ba7-26d0e1b1024b} was loaded during application startup. 
+2023-02-12 00:56:04.2451|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly CRUD_Example.WEB_API 
+2023-02-12 00:56:04.2451|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2023-02-12 00:56:04.2451|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2023-02-12 00:56:04.2451|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-02-12 00:56:04.2663|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-02-12 00:56:04.2663|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND 
+2023-02-12 00:56:04.2663|2|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2023-02-12 00:56:04.3093|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44387/swagger - - 
+2023-02-12 00:56:04.3415|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2023-02-12 00:56:04.3415|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-02-12 00:56:04.3834|1000|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger' 
+2023-02-12 00:56:04.3834|2|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-02-12 00:56:04.4562|1|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18230571314681217027" disconnecting. 
+2023-02-12 00:56:04.4562|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44387/swagger/index.html - - 
+2023-02-12 00:56:04.4562|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-02-12 00:56:04.4562|1000|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html' 
+2023-02-12 00:56:04.4562|2|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-02-12 00:56:04.5103|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44387/swagger - - - 301 - - 203.2501ms 
+2023-02-12 00:56:04.8381|1|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection. 
+2023-02-12 00:56:04.8521|2|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection. 
+2023-02-12 00:56:04.8521|1|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18374686481282236440" disconnecting. 
+2023-02-12 00:56:04.8521|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44387/swagger/index.html - - - 200 - text/html;charset=utf-8 397.4728ms 
+2023-02-12 00:56:05.0046|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44387/swagger/swagger-ui.css - - 
+2023-02-12 00:56:05.0046|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-02-12 00:56:05.0420|1000|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/swagger-ui.css' 
+2023-02-12 00:56:05.0420|2|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-02-12 00:56:05.0449|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44387/swagger/swagger-ui-bundle.js - - 
+2023-02-12 00:56:05.0449|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-02-12 00:56:05.0449|1000|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/swagger-ui-bundle.js' 
+2023-02-12 00:56:05.0449|2|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-02-12 00:56:05.0449|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44387/_framework/aspnetcore-browser-refresh.js - - 
+2023-02-12 00:56:05.0449|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44387/swagger/swagger-ui-standalone-preset.js - - 
+2023-02-12 00:56:05.0449|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-02-12 00:56:05.0449|1000|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js' 
+2023-02-12 00:56:05.0449|2|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-02-12 00:56:05.0449|0|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2023-02-12 00:56:05.0449|0|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2023-02-12 00:56:05.0631|0|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2023-02-12 00:56:05.0631|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44387/_framework/aspnetcore-browser-refresh.js - - - 200 12009 application/javascript;+charset=utf-8 15.8326ms 
+2023-02-12 00:56:05.0764|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2023-02-12 00:56:05.1023|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+2023-02-12 00:56:05.1070|1|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18230571314681217029" disconnecting. 
+2023-02-12 00:56:05.1070|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+2023-02-12 00:56:05.1070|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44387/swagger/swagger-ui.css - - - 200 144929 text/css 112.5846ms 
+2023-02-12 00:56:05.1438|1|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18230571323271151630" disconnecting. 
+2023-02-12 00:56:05.1438|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44387/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 95.7228ms 
+2023-02-12 00:56:05.2185|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44387/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 168.6569ms 
+2023-02-12 00:56:05.2185|1|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18158513720643289089" disconnecting. 
+2023-02-12 00:56:05.2539|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44387/_vs/browserLink - - 
+2023-02-12 00:56:05.4239|1|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18158513720643289091" disconnecting. 
+2023-02-12 00:56:05.4239|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44387/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 170.2502ms 
+2023-02-12 00:56:06.0844|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44387/swagger/v1/swagger.json - - 
+2023-02-12 00:56:06.0844|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-02-12 00:56:06.0844|1000|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json' 
+2023-02-12 00:56:06.0844|2|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-02-12 00:56:06.0907|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44387/swagger/favicon-32x32.png - - 
+2023-02-12 00:56:06.0907|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-02-12 00:56:06.0907|1000|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/favicon-32x32.png' 
+2023-02-12 00:56:06.0907|2|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-02-12 00:56:06.0907|0|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2023-02-12 00:56:06.0907|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+2023-02-12 00:56:06.0907|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44387/swagger/favicon-32x32.png - - - 200 628 image/png 3.0252ms 
+2023-02-12 00:56:06.0907|1|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18374686507052040203" disconnecting. 
+2023-02-12 00:56:06.4332|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44387/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 348.7288ms 
+2023-02-12 00:56:06.4332|1|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18086456126605361153" disconnecting. 
+2023-02-12 00:56:58.4267|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:44387/api/Survey/add-entity application/json 177 
+2023-02-12 00:56:58.4267|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-02-12 00:56:58.4793|1001|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Survey/add-entity' 
+2023-02-12 00:56:58.4867|1005|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'CRUD_Example.WEB_API.Controllers.SurveyController.AddEntity (CRUD_Example.WEB_API)' with route pattern 'api/Survey/add-entity' is valid for the request path '/api/Survey/add-entity' 
+2023-02-12 00:56:58.4867|1|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'CRUD_Example.WEB_API.Controllers.SurveyController.AddEntity (CRUD_Example.WEB_API)' 
+2023-02-12 00:56:58.4867|2|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:44387'. 
+2023-02-12 00:56:58.4867|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-02-12 00:56:58.4966|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CRUD_Example.WEB_API.Controllers.SurveyController.AddEntity (CRUD_Example.WEB_API)' 
+2023-02-12 00:56:58.5562|102|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "AddEntity", controller = "Survey"}. Executing controller action with signature System.Threading.Tasks.Task`1[CRUD_Example.Core.Responses.Response] AddEntity(CRUD_Example.Core.Entities.SurveyData) on controller CRUD_Example.WEB_API.Controllers.SurveyController (CRUD_Example.WEB_API). 
+2023-02-12 00:56:58.5562|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2023-02-12 00:56:58.5592|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2023-02-12 00:56:58.5592|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2023-02-12 00:56:58.5592|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2023-02-12 00:56:58.5592|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter, Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2023-02-12 00:56:58.5592|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-02-12 00:56:58.5592|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-02-12 00:56:58.5592|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller CRUD_Example.WEB_API.Controllers.SurveyController (CRUD_Example.WEB_API) 
+2023-02-12 00:56:58.8870|10401|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework. 
+2023-02-12 00:56:58.9134|2|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller CRUD_Example.WEB_API.Controllers.SurveyController (CRUD_Example.WEB_API) 
+2023-02-12 00:56:58.9206|22|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'data' of type 'CRUD_Example.Core.Entities.SurveyData' ... 
+2023-02-12 00:56:58.9206|44|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'data' of type 'CRUD_Example.Core.Entities.SurveyData' using the name '' in request data ... 
+2023-02-12 00:56:58.9206|1|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+2023-02-12 00:56:58.9551|2|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'CRUD_Example.Core.Entities.SurveyData' 
+2023-02-12 00:56:58.9551|45|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'data' of type 'CRUD_Example.Core.Entities.SurveyData'. 
+2023-02-12 00:56:58.9551|23|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'data' of type 'CRUD_Example.Core.Entities.SurveyData'. 
+2023-02-12 00:56:58.9551|26|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'data' of type 'CRUD_Example.Core.Entities.SurveyData' ... 
+2023-02-12 00:56:58.9827|27|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'data' of type 'CRUD_Example.Core.Entities.SurveyData'. 
+2023-02-12 00:56:58.9827|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-02-12 00:56:58.9827|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-02-12 00:56:58.9827|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-02-12 00:56:58.9827|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-02-12 00:56:58.9827|101|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method CRUD_Example.WEB_API.Controllers.SurveyController.AddEntity (CRUD_Example.WEB_API) - Validation state: Valid 
+2023-02-12 00:56:58.9827|102|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method CRUD_Example.WEB_API.Controllers.SurveyController.AddEntity (CRUD_Example.WEB_API) with arguments (CRUD_Example.Core.Entities.SurveyData) 
+2023-02-12 00:56:59.6926|10600|DEBUG|Microsoft.EntityFrameworkCore.Model.Validation|The property 'SurveyValue.SurveyDataId' was created in shadow state because there are no eligible CLR members with a matching name. 
+2023-02-12 00:56:59.9298|10403|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.1 initialized 'EfContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.1+bb6fc9a54b5214588485d0c178bcbc3c84f18479' with options: None 
+2023-02-12 00:56:59.9737|10808|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|'"EfContext"' generated a temporary value for the property '"Id"."SurveyData"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-02-12 00:57:00.0630|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyData' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-02-12 00:57:00.0771|10808|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|'"EfContext"' generated a temporary value for the property '"Id"."SurveyValue"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-02-12 00:57:00.1212|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-02-12 00:57:00.1257|10004|DEBUG|Microsoft.EntityFrameworkCore.Update|SaveChanges starting for 'EfContext'. 
+2023-02-12 00:57:00.1257|10800|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|DetectChanges starting for 'EfContext'. 
+2023-02-12 00:57:00.1515|10801|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|DetectChanges completed for 'EfContext'. 
+2023-02-12 00:57:00.2633|20005|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2023-02-12 00:57:00.3506|20006|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (83ms). 
+2023-02-12 00:57:00.3563|20000|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'LastProject' on server ''. 
+2023-02-12 00:57:00.6578|20001|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'LastProject' on server 'tcp://localhost:5432'. 
+2023-02-12 00:57:00.6578|20209|DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Beginning transaction with isolation level 'Unspecified'. 
+2023-02-12 00:57:00.6714|20200|DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Began transaction with isolation level 'ReadCommitted'. 
+2023-02-12 00:57:00.6842|20103|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2023-02-12 00:57:00.6842|20104|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (4ms). 
+2023-02-12 00:57:00.6842|20106|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (13ms). 
+2023-02-12 00:57:00.7084|20100|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@p0='?', @p1='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO "SurveyDatas" ("AnomalyType", "Description")
+VALUES (@p0, @p1)
+RETURNING "Id"; 
+2023-02-12 00:57:00.7660|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (63ms) [Parameters=[@p0='?', @p1='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO "SurveyDatas" ("AnomalyType", "Description")
+VALUES (@p0, @p1)
+RETURNING "Id"; 
+2023-02-12 00:57:00.7869|10803|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The foreign key property 'SurveyData.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values. 
+2023-02-12 00:57:00.7952|10803|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The foreign key property 'SurveyValue.SurveyDataId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values. 
+2023-02-12 00:57:00.7952|20301|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'LastProject' on server 'tcp://localhost:5432'. 
+2023-02-12 00:57:00.8212|20300|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'LastProject' on server 'tcp://localhost:5432' is being disposed after spending 45ms reading results. 
+2023-02-12 00:57:00.8267|20103|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2023-02-12 00:57:00.8267|20104|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2023-02-12 00:57:00.8267|20106|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2023-02-12 00:57:00.8267|20100|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@p2='?' (DbType = Double), @p3='?' (DbType = Double), @p4='?' (DbType = Int32), @p5='?' (DbType = Double)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "SurveyValues" ("Coord_X", "Coord_Y", "SurveyDataId", "Value")
+VALUES (@p2, @p3, @p4, @p5)
+RETURNING "Id"; 
+2023-02-12 00:57:00.8426|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (15ms) [Parameters=[@p2='?' (DbType = Double), @p3='?' (DbType = Double), @p4='?' (DbType = Int32), @p5='?' (DbType = Double)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "SurveyValues" ("Coord_X", "Coord_Y", "SurveyDataId", "Value")
+VALUES (@p2, @p3, @p4, @p5)
+RETURNING "Id"; 
+2023-02-12 00:57:00.8426|10803|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The foreign key property 'SurveyValue.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values. 
+2023-02-12 00:57:00.8426|20301|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'LastProject' on server 'tcp://localhost:5432'. 
+2023-02-12 00:57:00.8426|20300|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'LastProject' on server 'tcp://localhost:5432' is being disposed after spending 2ms reading results. 
+2023-02-12 00:57:00.8426|20210|DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Committing transaction. 
+2023-02-12 00:57:00.8573|20202|DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Committed transaction. 
+2023-02-12 00:57:00.8573|20002|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'LastProject' on server 'tcp://localhost:5432'. 
+2023-02-12 00:57:00.8573|20003|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'LastProject' on server '' (5ms). 
+2023-02-12 00:57:00.8731|20204|DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Disposing transaction. 
+2023-02-12 00:57:00.8875|10807|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|An entity of type 'SurveyData' tracked by 'EfContext' changed state from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-02-12 00:57:00.8875|10807|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|An entity of type 'SurveyValue' tracked by 'EfContext' changed state from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-02-12 00:57:00.8875|10005|DEBUG|Microsoft.EntityFrameworkCore.Update|SaveChanges completed for 'EfContext' with 2 entities written to the database. 
+2023-02-12 00:57:00.8875|103|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method CRUD_Example.WEB_API.Controllers.SurveyController.AddEntity (CRUD_Example.WEB_API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1904.3023ms. 
+2023-02-12 00:57:00.8875|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-02-12 00:57:00.8875|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-02-12 00:57:00.8875|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-02-12 00:57:00.8875|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-02-12 00:57:00.8875|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-02-12 00:57:00.8875|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-02-12 00:57:00.8875|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-02-12 00:57:00.8875|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-02-12 00:57:00.8875|5|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2023-02-12 00:57:00.9049|11|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2023-02-12 00:57:00.9049|6|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter based on Accept header 'text/plain'. 
+2023-02-12 00:57:00.9049|5|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Could not find an output formatter based on content negotiation. Accepted types were (text/plain) 
+2023-02-12 00:57:00.9049|8|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2023-02-12 00:57:00.9049|10|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2023-02-12 00:57:00.9049|2|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2023-02-12 00:57:00.9049|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'CRUD_Example.Core.Responses.Response'. 
+2023-02-12 00:57:00.9195|6|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2023-02-12 00:57:00.9195|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-02-12 00:57:00.9195|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-02-12 00:57:00.9195|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-02-12 00:57:00.9195|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-02-12 00:57:00.9195|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-02-12 00:57:00.9195|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-02-12 00:57:00.9195|105|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CRUD_Example.WEB_API.Controllers.SurveyController.AddEntity (CRUD_Example.WEB_API) in 2361.7514ms 
+2023-02-12 00:57:00.9195|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CRUD_Example.WEB_API.Controllers.SurveyController.AddEntity (CRUD_Example.WEB_API)' 
+2023-02-12 00:57:00.9195|1|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18230571306091282435" disconnecting. 
+2023-02-12 00:57:00.9195|10407|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'EfContext' disposed. 
+2023-02-12 00:57:00.9360|20007|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'LastProject' on server ''. 
+2023-02-12 00:57:00.9360|20008|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database 'LastProject' on server '' (3ms). 
+2023-02-12 00:57:00.9360|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:44387/api/Survey/add-entity application/json 177 - 200 - application/json;+charset=utf-8 2550.1790ms 

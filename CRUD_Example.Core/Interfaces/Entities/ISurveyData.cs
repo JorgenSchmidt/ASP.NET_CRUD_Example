@@ -1,7 +1,11 @@
-﻿using CRUD_Example.Core.Responses;
+﻿using CRUD_Example.Core.Entities;
+using CRUD_Example.Core.Responses;
 
 namespace CRUD_Example.Core.Interfaces.Entities
 {
+    /// <summary>
+    /// Description of acceptable methods for SurveyData entity
+    /// </summary>
     public interface ISurveyData
     {
         /// <summary>
@@ -15,7 +19,7 @@ namespace CRUD_Example.Core.Interfaces.Entities
         /// <summary>
         /// To add entity and return execution status. Post method.
         /// </summary>
-        public Task<Response> AddEntity(object Input);
+        public Task<Response> AddEntity(SurveyData data);
         /// <summary>
         /// To update entity and return execution status. Post method.
         /// </summary>
@@ -23,6 +27,6 @@ namespace CRUD_Example.Core.Interfaces.Entities
         /// <summary>
         /// To delete entity and return execution status. Post method.
         /// </summary>
-        public Task<Response> DeleteEntity(object Input);
+        public Task<Response> DeleteEntity(int ID);
     }
 }

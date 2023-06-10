@@ -61,3 +61,12 @@
 2023-02-11 19:20:06.7012|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S) GetAll method: Response has been sent |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
 2023-02-11 19:20:38.9740|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S) GetAll method: Response has been sent |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
 2023-02-11 19:20:38.9876|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S) GetAll method: Response has been sent |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-02-11 19:30:23.2979|0|INFO|CRUD_Example.WEB_API|Log |url: |action: |Program.<Main>$
+2023-02-11 19:30:23.8887|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-02-11 19:30:23.9093|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-02-11 19:30:23.9093|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-02-11 19:30:28.0159|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S) GetAll method: Response has been sent |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-02-11 22:51:19.4160|0|INFO|CRUD_Example.WEB_API|Log |url: |action: |Program.<Main>$
+2023-02-11 22:51:20.4470|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-02-11 22:51:20.4773|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-02-11 22:51:20.4773|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted

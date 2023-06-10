@@ -16,7 +16,7 @@ export default class ViewData {
 export const ViewDataElement = ({anomalyType, description, refto}: ViewData) => {
     return (
         <NavLink to={refto}>
-            <div className="mainElements-ViewData">
+            <div className="mainElements-ViewDataBlock">
                 <p className="font-small font-smallbold"> Тип: {anomalyType} </p>
                 <p className="font-verysmall font-smallbold"> Описание: {description} </p>
             </div>

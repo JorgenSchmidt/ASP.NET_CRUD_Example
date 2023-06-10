@@ -2,54 +2,96 @@
 using CRUD_Example.Core.Enums;
 using CRUD_Example.Core.Interfaces.Entities;
 using CRUD_Example.Core.Responses;
+using CRUD_Example.DAL.NPGSQL;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
 namespace CRUD_Example.Data.PostgreeSQL.Services
 {
     public class SurveyService : ISurveyData
     {
+        readonly EfContext _context;
 
         private readonly ILogger<SurveyService> _logger;
 
-        public SurveyService(ILogger<SurveyService> logger)
+        public SurveyService(ILogger<SurveyService> logger, EfContext context)
         {
             _logger = logger;
+            _context = context;
         }
 
         public async Task<Response> GetAll()
         {
             try
             {
-                _logger.LogInformation("(S) GetAll method: Response has been sent");
-                return new GoodResponse<SurveyData>
+                _logger.LogInformation("(S): Response has been sent (GetAllMethod)");
+                return new Response
                 {
-                    Body = new List<SurveyData> 
-                    { 
-                        new SurveyData { Id = 1, AnomalyType = "Gravity", Description = "Sverdlovsk region, gravity survey data in the southwest within the city of Bakal", Values = new List<SurveyValues> { new SurveyValues { Coord_X = 1.2, Coord_Y = 40.2, Value = 0.131 }, new SurveyValues { Coord_X = 8.2, Coord_Y = 42.1, Value = 0.171 } } },
-                        new SurveyData { Id = 2, AnomalyType = "Gravity", Description = "Sverdlovsk region, gravity survey data in the southwest within the city of Bakal", Values = new List<SurveyValues> { new SurveyValues { Coord_X = 1.2, Coord_Y = 45.2, Value = 0.242 }, new SurveyValues { Coord_X = 8.3, Coord_Y = 45.1, Value = 0.121 } } }
-                    },
+                    Status = ResponseStatus.Ok,
+                    Body = await _context.SurveyDatas.Include(x => x.Values).ToListAsync()
+                };
+            }
+            catch(Exception e)
+            {
+                _logger.LogInformation($"\n(E): Error in GetAllMethod method: {e}\n");
+                return new Response
+                {
+                    Status = ResponseStatus.InternalServerError
+                };
+            }
+        }
+
+        public async Task<Response> GetById(int ID)
+        {
+            try
+            {
+                _logger.LogInformation("(S): Response has been sent(GetByIdMethod)");
+                var data = _context.SurveyDatas
+                        .Where(x => x.Id == ID)
+                        .Include(x => x.Values);
+
+                return new Response
+                {
+                    Status = ResponseStatus.Ok,
+                    Body = await data.ToListAsync()
+                };
+            }
+            catch (Exception e)
+            {
+                _logger.LogInformation($"\n(E): Error in GetById method: {e}\n");
+                return new Response
+                {
+                    Status = ResponseStatus.InternalServerError
+                };
+            }
+        }
+
+        public async Task<Response> AddEntity(SurveyData data)
+        {
+            try
+            {
+                var dataSurvey = new SurveyData
+                {
+                    AnomalyType = data.AnomalyType,
+                    Description = data.Description,
+                    Values = data.Values
+                };
+                await _context.SurveyDatas.AddAsync(dataSurvey);
+                await _context.SaveChangesAsync();
+                _logger.LogInformation("(S): Response has been sent (AddEntity method)");
+                return new Response
+                {
                     Status = ResponseStatus.Ok
                 };
             }
-            catch (Exception ex)
+            catch (Exception e)
             {
-                _logger.LogInformation("(E) SurveyService.GetAll method: Error has been detected: " + ex);
-                return new BadResponse
+                _logger.LogInformation($"\n(E): Error in AddEntity method: {e}\n");
+                return new Response
                 {
-                    Body = await Task.Run(() => "Internal server error"),
-                    Status = ResponseStatus.InternalErrorServer
+                    Status = ResponseStatus.InternalServerError
                 };
             }
-        }
-
-        public Task<Response> GetById(int ID)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<Response> AddEntity(object Input)
-        {
-            throw new NotImplementedException();
         }
 
         public Task<Response> UpdateEntity(object Input)
@@ -57,7 +99,7 @@ namespace CRUD_Example.Data.PostgreeSQL.Services
             throw new NotImplementedException();
         }
 
-        public Task<Response> DeleteEntity(object Input)
+        public Task<Response> DeleteEntity(int ID)
         {
             throw new NotImplementedException();
         }

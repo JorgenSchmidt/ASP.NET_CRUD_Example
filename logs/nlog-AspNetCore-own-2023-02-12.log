@@ -1,0 +1,12 @@
+2023-02-12 00:51:19.1512|0|INFO|CRUD_Example.WEB_API|Log |url: |action: |Program.<Main>$
+2023-02-12 00:51:20.5029|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-02-12 00:51:20.5640|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-02-12 00:51:20.5640|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-02-12 00:53:14.0642|0|INFO|CRUD_Example.WEB_API|Log |url: |action: |Program.<Main>$
+2023-02-12 00:53:14.6408|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-02-12 00:53:14.6656|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-02-12 00:53:14.6656|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-02-12 00:56:03.6865|0|INFO|CRUD_Example.WEB_API|Log |url: |action: |Program.<Main>$
+2023-02-12 00:56:04.2451|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-02-12 00:56:04.2663|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-02-12 00:56:04.2663|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted

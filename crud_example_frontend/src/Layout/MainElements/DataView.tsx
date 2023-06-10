@@ -67,7 +67,7 @@ class DataView extends Component {
                     <ViewDataElement 
                         anomalyType = {currentObj.AnomalyType}
                         description = {currentObj.Description}
-                        refto = {"/" + currentObj.Id}
+                        refto = {"/el/" + currentObj.Id}
                     />
                 )
             }
@@ -81,9 +81,6 @@ class DataView extends Component {
             if (this.response.status !== 500) {
                 this.parseJsonToList()
                 this.parseListToDisplayElements()
-                console.log(this.response)
-                console.log(this.elements)
-                console.log(this.currentElementsDisplays)
                 return(
                     <div className="mainElements-DataView">
                         <p className="font-large font-bold">Список элементов: </p>
@@ -94,7 +91,7 @@ class DataView extends Component {
             else {
                 return (
                     <div>
-                        <p>Internal Server Error</p>
+                        <p className="font-red">Internal Server Error</p>
                     </div>
                 )
             }
@@ -102,7 +99,7 @@ class DataView extends Component {
         else {
             return (
                 <div>
-                    <p>Cant upload page</p>
+                    <p className="font-red">Cant upload page</p>
                 </div>
             )
         }

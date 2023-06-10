@@ -1,0 +1,17 @@
+D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.DAL.NPGSQL\bin\Debug\net7.0\CRUD_Example.DAL.NPGSQL.deps.json
+D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.DAL.NPGSQL\bin\Debug\net7.0\CRUD_Example.DAL.NPGSQL.runtimeconfig.json
+D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.DAL.NPGSQL\bin\Debug\net7.0\CRUD_Example.DAL.NPGSQL.dll
+D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.DAL.NPGSQL\bin\Debug\net7.0\CRUD_Example.DAL.NPGSQL.pdb
+D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.DAL.NPGSQL\bin\Debug\net7.0\CRUD_Example.Core.dll
+D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.DAL.NPGSQL\bin\Debug\net7.0\CRUD_Example.Core.pdb
+D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.DAL.NPGSQL\obj\Debug\net7.0\CRUD_Example.DAL.NPGSQL.csproj.AssemblyReference.cache
+D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.DAL.NPGSQL\obj\Debug\net7.0\CRUD_Example.DAL.NPGSQL.GeneratedMSBuildEditorConfig.editorconfig
+D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.DAL.NPGSQL\obj\Debug\net7.0\CRUD_Example.DAL.NPGSQL.AssemblyInfoInputs.cache
+D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.DAL.NPGSQL\obj\Debug\net7.0\CRUD_Example.DAL.NPGSQL.AssemblyInfo.cs
+D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.DAL.NPGSQL\obj\Debug\net7.0\CRUD_Example.DAL.NPGSQL.csproj.CoreCompileInputs.cache
+D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.DAL.NPGSQL\obj\Debug\net7.0\CRUD_Example.DAL.NPGSQL.csproj.CopyComplete
+D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.DAL.NPGSQL\obj\Debug\net7.0\CRUD_Example.DAL.NPGSQL.dll
+D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.DAL.NPGSQL\obj\Debug\net7.0\refint\CRUD_Example.DAL.NPGSQL.dll
+D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.DAL.NPGSQL\obj\Debug\net7.0\CRUD_Example.DAL.NPGSQL.pdb
+D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.DAL.NPGSQL\obj\Debug\net7.0\CRUD_Example.DAL.NPGSQL.genruntimeconfig.cache
+D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.DAL.NPGSQL\obj\Debug\net7.0\ref\CRUD_Example.DAL.NPGSQL.dll

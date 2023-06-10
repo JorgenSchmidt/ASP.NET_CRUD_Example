@@ -1,0 +1,297 @@
+2023-02-11 15:43:59.3774 Info Message Template Auto Format enabled
+2023-02-11 15:43:59.4019 Info Loading assembly: NLog.Web.AspNetCore
+2023-02-11 15:43:59.4689 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-02-11 15:43:59.4689 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-02-11 15:43:59.4689 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-02-11 15:43:59.5005 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-02-11 15:43:59.5258 Info Configuration initialized.
+2023-02-11 15:43:59.5455 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.1.1522. Product version: 5.1.1+b1175f1ad0ce4a4a9d1f4b61538202071d7be513. GlobalAssemblyCache: False
+2023-02-11 15:43:59.5471 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-02-11 17:36:03.5287 Info Message Template Auto Format enabled
+2023-02-11 17:36:03.5479 Info Loading assembly: NLog.Web.AspNetCore
+2023-02-11 17:36:03.6013 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-02-11 17:36:03.6069 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-02-11 17:36:03.6069 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-02-11 17:36:03.6378 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-02-11 17:36:03.6659 Info Configuration initialized.
+2023-02-11 17:36:03.6832 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.1.1522. Product version: 5.1.1+b1175f1ad0ce4a4a9d1f4b61538202071d7be513. GlobalAssemblyCache: False
+2023-02-11 17:36:03.6847 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-02-11 19:30:23.0100 Info Message Template Auto Format enabled
+2023-02-11 19:30:23.0420 Info Loading assembly: NLog.Web.AspNetCore
+2023-02-11 19:30:23.1310 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-02-11 19:30:23.1310 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-02-11 19:30:23.1398 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-02-11 19:30:23.1681 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-02-11 19:30:23.1916 Info Configuration initialized.
+2023-02-11 19:30:23.2125 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.1.1522. Product version: 5.1.1+b1175f1ad0ce4a4a9d1f4b61538202071d7be513. GlobalAssemblyCache: False
+2023-02-11 19:30:23.2125 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-02-11 22:51:19.0469 Info Message Template Auto Format enabled
+2023-02-11 22:51:19.0805 Info Loading assembly: NLog.Web.AspNetCore
+2023-02-11 22:51:19.1758 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-02-11 22:51:19.1840 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-02-11 22:51:19.1840 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-02-11 22:51:19.2528 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-02-11 22:51:19.3011 Info Configuration initialized.
+2023-02-11 22:51:19.3321 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.1.1522. Product version: 5.1.1+b1175f1ad0ce4a4a9d1f4b61538202071d7be513. GlobalAssemblyCache: False
+2023-02-11 22:51:19.3321 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-02-11 23:08:35.4706 Info Message Template Auto Format enabled
+2023-02-11 23:08:35.4914 Info Loading assembly: NLog.Web.AspNetCore
+2023-02-11 23:08:35.5739 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-02-11 23:08:35.5796 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-02-11 23:08:35.5796 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-02-11 23:08:35.6155 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-02-11 23:08:35.6483 Info Configuration initialized.
+2023-02-11 23:08:35.6599 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.1.1522. Product version: 5.1.1+b1175f1ad0ce4a4a9d1f4b61538202071d7be513. GlobalAssemblyCache: False
+2023-02-11 23:08:35.6599 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-02-11 23:09:48.7305 Info Message Template Auto Format enabled
+2023-02-11 23:09:48.7463 Info Loading assembly: NLog.Web.AspNetCore
+2023-02-11 23:09:48.8166 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-02-11 23:09:48.8166 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-02-11 23:09:48.8255 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-02-11 23:09:48.8494 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-02-11 23:09:48.8752 Info Configuration initialized.
+2023-02-11 23:09:48.8752 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.1.1522. Product version: 5.1.1+b1175f1ad0ce4a4a9d1f4b61538202071d7be513. GlobalAssemblyCache: False
+2023-02-11 23:09:48.8752 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-02-11 23:11:19.2435 Info Message Template Auto Format enabled
+2023-02-11 23:11:19.2649 Info Loading assembly: NLog.Web.AspNetCore
+2023-02-11 23:11:19.3305 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-02-11 23:11:19.3305 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-02-11 23:11:19.3305 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-02-11 23:11:19.3723 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-02-11 23:11:19.4000 Info Configuration initialized.
+2023-02-11 23:11:19.4088 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.1.1522. Product version: 5.1.1+b1175f1ad0ce4a4a9d1f4b61538202071d7be513. GlobalAssemblyCache: False
+2023-02-11 23:11:19.4088 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-02-11 23:13:10.2905 Info Message Template Auto Format enabled
+2023-02-11 23:13:10.3041 Info Loading assembly: NLog.Web.AspNetCore
+2023-02-11 23:13:10.3681 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-02-11 23:13:10.3720 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-02-11 23:13:10.3720 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-02-11 23:13:10.4063 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-02-11 23:13:10.4305 Info Configuration initialized.
+2023-02-11 23:13:10.4388 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.1.1522. Product version: 5.1.1+b1175f1ad0ce4a4a9d1f4b61538202071d7be513. GlobalAssemblyCache: False
+2023-02-11 23:13:10.4388 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-02-11 23:14:37.7361 Info Message Template Auto Format enabled
+2023-02-11 23:14:37.7507 Info Loading assembly: NLog.Web.AspNetCore
+2023-02-11 23:14:37.8201 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-02-11 23:14:37.8266 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-02-11 23:14:37.8266 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-02-11 23:14:37.8571 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-02-11 23:14:37.8831 Info Configuration initialized.
+2023-02-11 23:14:37.8941 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.1.1522. Product version: 5.1.1+b1175f1ad0ce4a4a9d1f4b61538202071d7be513. GlobalAssemblyCache: False
+2023-02-11 23:14:37.8941 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-02-11 23:16:20.3352 Info Message Template Auto Format enabled
+2023-02-11 23:16:20.3524 Info Loading assembly: NLog.Web.AspNetCore
+2023-02-11 23:16:20.4283 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-02-11 23:16:20.4354 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-02-11 23:16:20.4354 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-02-11 23:16:20.4716 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-02-11 23:16:20.4983 Info Configuration initialized.
+2023-02-11 23:16:20.4983 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.1.1522. Product version: 5.1.1+b1175f1ad0ce4a4a9d1f4b61538202071d7be513. GlobalAssemblyCache: False
+2023-02-11 23:16:20.4983 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-02-11 23:21:20.5271 Info Message Template Auto Format enabled
+2023-02-11 23:21:20.5271 Info Loading assembly: NLog.Web.AspNetCore
+2023-02-11 23:21:20.5871 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-02-11 23:21:20.5908 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-02-11 23:21:20.5908 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-02-11 23:21:20.6107 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-02-11 23:21:20.6320 Info Configuration initialized.
+2023-02-11 23:21:20.6378 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.1.1522. Product version: 5.1.1+b1175f1ad0ce4a4a9d1f4b61538202071d7be513. GlobalAssemblyCache: False
+2023-02-11 23:21:20.6378 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-02-11 23:21:44.1073 Info Message Template Auto Format enabled
+2023-02-11 23:21:44.1073 Info Loading assembly: NLog.Web.AspNetCore
+2023-02-11 23:21:44.1579 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-02-11 23:21:44.1579 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-02-11 23:21:44.1579 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-02-11 23:21:44.1779 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-02-11 23:21:44.1951 Info Configuration initialized.
+2023-02-11 23:21:44.2016 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.1.1522. Product version: 5.1.1+b1175f1ad0ce4a4a9d1f4b61538202071d7be513. GlobalAssemblyCache: False
+2023-02-11 23:21:44.2016 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-02-11 23:52:54.3993 Info Message Template Auto Format enabled
+2023-02-11 23:52:54.4122 Info Loading assembly: NLog.Web.AspNetCore
+2023-02-11 23:52:54.4531 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-02-11 23:52:54.4531 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-02-11 23:52:54.4531 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-02-11 23:52:54.4760 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-02-11 23:52:54.4906 Info Configuration initialized.
+2023-02-11 23:52:54.4967 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.1.1522. Product version: 5.1.1+b1175f1ad0ce4a4a9d1f4b61538202071d7be513. GlobalAssemblyCache: False
+2023-02-11 23:52:54.4967 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-02-11 23:53:16.5655 Info Message Template Auto Format enabled
+2023-02-11 23:53:16.5768 Info Loading assembly: NLog.Web.AspNetCore
+2023-02-11 23:53:16.6156 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-02-11 23:53:16.6156 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-02-11 23:53:16.6156 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-02-11 23:53:16.6356 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-02-11 23:53:16.6519 Info Configuration initialized.
+2023-02-11 23:53:16.6572 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.1.1522. Product version: 5.1.1+b1175f1ad0ce4a4a9d1f4b61538202071d7be513. GlobalAssemblyCache: False
+2023-02-11 23:53:16.6572 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-02-12 00:51:18.8898 Info Message Template Auto Format enabled
+2023-02-12 00:51:18.9122 Info Loading assembly: NLog.Web.AspNetCore
+2023-02-12 00:51:18.9872 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-02-12 00:51:18.9872 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-02-12 00:51:18.9965 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-02-12 00:51:19.0242 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-02-12 00:51:19.0526 Info Configuration initialized.
+2023-02-12 00:51:19.0749 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.1.1522. Product version: 5.1.1+b1175f1ad0ce4a4a9d1f4b61538202071d7be513. GlobalAssemblyCache: False
+2023-02-12 00:51:19.0749 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-02-12 00:53:13.8858 Info Message Template Auto Format enabled
+2023-02-12 00:53:13.8997 Info Loading assembly: NLog.Web.AspNetCore
+2023-02-12 00:53:13.9501 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-02-12 00:53:13.9501 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-02-12 00:53:13.9501 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-02-12 00:53:13.9777 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-02-12 00:53:14.0076 Info Configuration initialized.
+2023-02-12 00:53:14.0237 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.1.1522. Product version: 5.1.1+b1175f1ad0ce4a4a9d1f4b61538202071d7be513. GlobalAssemblyCache: False
+2023-02-12 00:53:14.0237 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-02-12 00:56:03.5252 Info Message Template Auto Format enabled
+2023-02-12 00:56:03.5414 Info Loading assembly: NLog.Web.AspNetCore
+2023-02-12 00:56:03.5875 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-02-12 00:56:03.5915 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-02-12 00:56:03.5915 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-02-12 00:56:03.6160 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-02-12 00:56:03.6329 Info Configuration initialized.
+2023-02-12 00:56:03.6504 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.1.1522. Product version: 5.1.1+b1175f1ad0ce4a4a9d1f4b61538202071d7be513. GlobalAssemblyCache: False
+2023-02-12 00:56:03.6504 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-03-02 15:10:00.6788 Info Message Template Auto Format enabled
+2023-03-02 15:10:00.6984 Info Loading assembly: NLog.Web.AspNetCore
+2023-03-02 15:10:00.7668 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-03-02 15:10:00.7668 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-03-02 15:10:00.7756 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-03-02 15:10:00.8071 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-03-02 15:10:00.8374 Info Configuration initialized.
+2023-03-02 15:10:00.8549 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.1.1522. Product version: 5.1.1+b1175f1ad0ce4a4a9d1f4b61538202071d7be513. GlobalAssemblyCache: False
+2023-03-02 15:10:00.8549 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-03-06 09:54:24.2995 Info Message Template Auto Format enabled
+2023-03-06 09:54:24.3183 Info Loading assembly: NLog.Web.AspNetCore
+2023-03-06 09:54:24.3895 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-03-06 09:54:24.3895 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-03-06 09:54:24.3895 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-03-06 09:54:24.4193 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-03-06 09:54:24.4651 Info Configuration initialized.
+2023-03-06 09:54:24.4842 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.1.1522. Product version: 5.1.1+b1175f1ad0ce4a4a9d1f4b61538202071d7be513. GlobalAssemblyCache: False
+2023-03-06 09:54:24.4842 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-03-06 10:25:35.7237 Info Message Template Auto Format enabled
+2023-03-06 10:25:35.7524 Info Loading assembly: NLog.Web.AspNetCore
+2023-03-06 10:25:35.8300 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-03-06 10:25:35.8300 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-03-06 10:25:35.8391 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-03-06 10:25:35.8623 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-03-06 10:25:35.8854 Info Configuration initialized.
+2023-03-06 10:25:35.9086 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.1.1522. Product version: 5.1.1+b1175f1ad0ce4a4a9d1f4b61538202071d7be513. GlobalAssemblyCache: False
+2023-03-06 10:25:35.9086 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-03-06 12:03:40.2485 Info Message Template Auto Format enabled
+2023-03-06 12:03:40.2648 Info Loading assembly: NLog.Web.AspNetCore
+2023-03-06 12:03:40.3395 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-03-06 12:03:40.3471 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-03-06 12:03:40.3471 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-03-06 12:03:40.3743 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-03-06 12:03:40.3957 Info Configuration initialized.
+2023-03-06 12:03:40.4155 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.1.1522. Product version: 5.1.1+b1175f1ad0ce4a4a9d1f4b61538202071d7be513. GlobalAssemblyCache: False
+2023-03-06 12:03:40.4180 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-03-06 19:12:23.6165 Info Message Template Auto Format enabled
+2023-03-06 19:12:23.6423 Info Loading assembly: NLog.Web.AspNetCore
+2023-03-06 19:12:23.7142 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-03-06 19:12:23.7142 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-03-06 19:12:23.7142 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-03-06 19:12:23.7626 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-03-06 19:12:23.8073 Info Configuration initialized.
+2023-03-06 19:12:23.8302 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.1.1522. Product version: 5.1.1+b1175f1ad0ce4a4a9d1f4b61538202071d7be513. GlobalAssemblyCache: False
+2023-03-06 19:12:23.8302 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-03-06 19:15:11.7669 Info Message Template Auto Format enabled
+2023-03-06 19:15:11.7814 Info Loading assembly: NLog.Web.AspNetCore
+2023-03-06 19:15:11.8369 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-03-06 19:15:11.8401 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-03-06 19:15:11.8401 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-03-06 19:15:11.8606 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-03-06 19:15:11.8769 Info Configuration initialized.
+2023-03-06 19:15:11.8898 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.1.1522. Product version: 5.1.1+b1175f1ad0ce4a4a9d1f4b61538202071d7be513. GlobalAssemblyCache: False
+2023-03-06 19:15:11.8898 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-03-06 19:23:21.5699 Info Message Template Auto Format enabled
+2023-03-06 19:23:21.5842 Info Loading assembly: NLog.Web.AspNetCore
+2023-03-06 19:23:21.6350 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-03-06 19:23:21.6350 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-03-06 19:23:21.6350 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-03-06 19:23:21.6613 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-03-06 19:23:21.6792 Info Configuration initialized.
+2023-03-06 19:23:21.6949 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.1.1522. Product version: 5.1.1+b1175f1ad0ce4a4a9d1f4b61538202071d7be513. GlobalAssemblyCache: False
+2023-03-06 19:23:21.6949 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-03-06 19:23:38.5917 Info Message Template Auto Format enabled
+2023-03-06 19:23:38.5917 Info Loading assembly: NLog.Web.AspNetCore
+2023-03-06 19:23:38.6409 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-03-06 19:23:38.6409 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-03-06 19:23:38.6409 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-03-06 19:23:38.6613 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-03-06 19:23:38.6835 Info Configuration initialized.
+2023-03-06 19:23:38.6985 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.1.1522. Product version: 5.1.1+b1175f1ad0ce4a4a9d1f4b61538202071d7be513. GlobalAssemblyCache: False
+2023-03-06 19:23:38.6985 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-03-07 11:51:30.0082 Info Message Template Auto Format enabled
+2023-03-07 11:51:30.0335 Info Loading assembly: NLog.Web.AspNetCore
+2023-03-07 11:51:30.1013 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-03-07 11:51:30.1070 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-03-07 11:51:30.1070 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-03-07 11:51:30.1340 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-03-07 11:51:30.1606 Info Configuration initialized.
+2023-03-07 11:51:30.1784 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.1.1522. Product version: 5.1.1+b1175f1ad0ce4a4a9d1f4b61538202071d7be513. GlobalAssemblyCache: False
+2023-03-07 11:51:30.1784 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-03-07 11:53:27.6425 Info Message Template Auto Format enabled
+2023-03-07 11:53:27.6578 Info Loading assembly: NLog.Web.AspNetCore
+2023-03-07 11:53:27.6993 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-03-07 11:53:27.6993 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-03-07 11:53:27.6993 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-03-07 11:53:27.7288 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-03-07 11:53:27.7597 Info Configuration initialized.
+2023-03-07 11:53:27.7765 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.1.1522. Product version: 5.1.1+b1175f1ad0ce4a4a9d1f4b61538202071d7be513. GlobalAssemblyCache: False
+2023-03-07 11:53:27.7765 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-03-07 12:32:51.8578 Info Message Template Auto Format enabled
+2023-03-07 12:32:51.8770 Info Loading assembly: NLog.Web.AspNetCore
+2023-03-07 12:32:51.9276 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-03-07 12:32:51.9276 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-03-07 12:32:51.9330 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-03-07 12:32:51.9573 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-03-07 12:32:51.9766 Info Configuration initialized.
+2023-03-07 12:32:51.9936 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.1.1522. Product version: 5.1.1+b1175f1ad0ce4a4a9d1f4b61538202071d7be513. GlobalAssemblyCache: False
+2023-03-07 12:32:51.9936 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-03-07 12:34:06.5141 Info Message Template Auto Format enabled
+2023-03-07 12:34:06.5322 Info Loading assembly: NLog.Web.AspNetCore
+2023-03-07 12:34:06.5970 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-03-07 12:34:06.5970 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-03-07 12:34:06.5970 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-03-07 12:34:06.6265 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-03-07 12:34:06.6521 Info Configuration initialized.
+2023-03-07 12:34:06.6687 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.1.1522. Product version: 5.1.1+b1175f1ad0ce4a4a9d1f4b61538202071d7be513. GlobalAssemblyCache: False
+2023-03-07 12:34:06.6687 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-03-07 12:39:04.2925 Info Message Template Auto Format enabled
+2023-03-07 12:39:04.3274 Info Loading assembly: NLog.Web.AspNetCore
+2023-03-07 12:39:04.3919 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-03-07 12:39:04.3919 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-03-07 12:39:04.3919 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-03-07 12:39:04.4162 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-03-07 12:39:04.4337 Info Configuration initialized.
+2023-03-07 12:39:04.4495 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.1.1522. Product version: 5.1.1+b1175f1ad0ce4a4a9d1f4b61538202071d7be513. GlobalAssemblyCache: False
+2023-03-07 12:39:04.4495 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-03-07 12:40:17.7714 Info Message Template Auto Format enabled
+2023-03-07 12:40:17.7877 Info Loading assembly: NLog.Web.AspNetCore
+2023-03-07 12:40:17.8395 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-03-07 12:40:17.8395 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-03-07 12:40:17.8395 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-03-07 12:40:17.8892 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-03-07 12:40:17.9178 Info Configuration initialized.
+2023-03-07 12:40:17.9464 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.1.1522. Product version: 5.1.1+b1175f1ad0ce4a4a9d1f4b61538202071d7be513. GlobalAssemblyCache: False
+2023-03-07 12:40:17.9487 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-03-07 12:50:24.0269 Info Message Template Auto Format enabled
+2023-03-07 12:50:24.0519 Info Loading assembly: NLog.Web.AspNetCore
+2023-03-07 12:50:24.1409 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-03-07 12:50:24.1409 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-03-07 12:50:24.1409 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-03-07 12:50:24.1818 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-03-07 12:50:24.2127 Info Configuration initialized.
+2023-03-07 12:50:24.2349 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.1.1522. Product version: 5.1.1+b1175f1ad0ce4a4a9d1f4b61538202071d7be513. GlobalAssemblyCache: False
+2023-03-07 12:50:24.2349 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-03-07 12:50:59.0925 Info Message Template Auto Format enabled
+2023-03-07 12:50:59.0925 Info Loading assembly: NLog.Web.AspNetCore
+2023-03-07 12:50:59.1542 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-03-07 12:50:59.1542 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-03-07 12:50:59.1542 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-03-07 12:50:59.1851 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
+2023-03-07 12:50:59.2345 Info Configuration initialized.
+2023-03-07 12:50:59.2565 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.1.1522. Product version: 5.1.1+b1175f1ad0ce4a4a9d1f4b61538202071d7be513. GlobalAssemblyCache: False
+2023-03-07 12:50:59.2565 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND\bin\Debug\net7.0\NLog.config
