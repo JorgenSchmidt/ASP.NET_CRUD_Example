@@ -49,7 +49,7 @@ class DataAdd extends Component {
         }
     }
 
-    async correctparams () 
+    async paramsIsCorrect () 
     {
         await this.setState(
             () => this.TypeIsCorrect = this.AnomalyType === "" ? false : true
@@ -117,6 +117,7 @@ class DataAdd extends Component {
     }
 
     onChangeDataParametersHandler(field: string, index: number, value: number) {
+
         switch(field) {
             case "X" :
                 this.DataAddEntities[index].coord_X = value
@@ -130,6 +131,7 @@ class DataAdd extends Component {
                 this.DataAddEntities[index].Value = value
             break;
         }
+        
     }
 
     render () {
@@ -169,7 +171,7 @@ class DataAdd extends Component {
                 <EventButton
                     content="Отправить"
                     eventname={ async () => {
-                        await this.correctparams();
+                        await this.paramsIsCorrect();
                         if (this.TypeIsCorrect && this.DescrIsCorrect) 
                         {
                             this.sendRequest();

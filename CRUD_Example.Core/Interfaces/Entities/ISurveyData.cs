@@ -23,7 +23,7 @@ namespace CRUD_Example.Core.Interfaces.Entities
         /// <summary>
         /// To update entity and return execution status. Post method.
         /// </summary>
-        public Task<Response> UpdateEntity(object Input);
+        public Task<Response> UpdateEntity(SurveyData data);
         /// <summary>
         /// To delete entity and return execution status. Post method.
         /// </summary>

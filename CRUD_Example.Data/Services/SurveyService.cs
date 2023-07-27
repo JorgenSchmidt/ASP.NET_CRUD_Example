@@ -94,14 +94,70 @@ namespace CRUD_Example.Data.PostgreeSQL.Services
             }
         }
 
-        public Task<Response> UpdateEntity(object Input)
+        public async Task<Response> UpdateEntity(SurveyData data)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var dataSurvey = await _context.SurveyDatas
+                        .FirstOrDefaultAsync(x => x.Id == data.Id);
+
+                if (dataSurvey != null)
+                {
+                    dataSurvey.AnomalyType = data.AnomalyType;
+                    dataSurvey.Description = data.Description;
+                    dataSurvey.Values = data.Values;
+                    
+                    await _context.SaveChangesAsync();
+                }
+
+                _logger.LogInformation($"Response has been sent (UpdateEntityMethod)");
+                return new Response 
+                { 
+                    Status = ResponseStatus.Ok 
+                };
+            }
+            catch (Exception e)
+            {
+                _logger.LogInformation($"\n(E): Error in UpdateEntity method: {e}\n");
+                return new Response
+                {
+                    Status = ResponseStatus.InternalServerError
+                };
+            }
         }
 
-        public Task<Response> DeleteEntity(int ID)
+        public async Task<Response> DeleteEntity(int ID)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var dataSurvey = await _context.SurveyDatas
+                    .Include(x => x.Values)
+                    .FirstOrDefaultAsync(x => x.Id == ID);
+
+                if (dataSurvey != null)
+                {
+                    _context.SurveyDatas.Remove(dataSurvey);
+                    await _context.SaveChangesAsync();
+
+                    _context.SurveyValues.RemoveRange(dataSurvey.Values);
+                    await _context.SaveChangesAsync();
+                }
+
+                _logger.LogInformation($"Response has been sent (DeleteEntityMethod)");
+                return new Response
+                {
+                    Status = ResponseStatus.Ok
+                };
+            }
+            catch (Exception e)
+            {
+                _logger.LogInformation($"\n(E): Error in DeleteEntity method method: {e}\n");
+                return new Response
+                {
+                    Status = ResponseStatus.InternalServerError
+                };
+            }
         }
+
     }
 }

@@ -35,6 +35,17 @@ namespace CRUD_Example.WEB_API.Controllers
             return await _service.AddEntity(data);
         }
 
+        [HttpPost("update-entity")]
+        public async Task<Response> UpdateEntity([FromBody]SurveyData data)
+        {
+            return await _service.UpdateEntity(data);
+        }
+
+        [HttpDelete("delete-entity/{ID}")]
+        public async Task<Response> DeleteEntity(int ID)
+        {
+            return await _service.DeleteEntity(ID);
+        }
 
     }
 }
