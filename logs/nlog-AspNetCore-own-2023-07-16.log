@@ -1,0 +1,633 @@
+2023-07-16 13:43:07.3303|0|INFO|CRUD_Example.WEB_API|Log |url: |action: |Program.<Main>$
+2023-07-16 13:43:08.5313|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-07-16 13:43:08.5611|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-07-16 13:43:08.5611|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-07-16 13:43:18.4355|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 13:43:20.4367|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 13:54:06.8260|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 13:54:07.1719|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:03:29.2477|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:03:29.5675|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:04:01.6488|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:04:01.6893|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:04:27.8055|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:06:17.0788|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:06:17.1247|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:06:48.2587|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:06:48.3283|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:15:42.3128|0|INFO|CRUD_Example.WEB_API|Log |url: |action: |Program.<Main>$
+2023-07-16 14:15:43.1577|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-07-16 14:15:43.1812|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-07-16 14:15:43.1812|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-07-16 14:16:09.0167|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:16:13.0823|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:16:13.1881|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:17:04.0156|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:17:04.0902|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:21:04.4403|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:21:04.4541|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:22:21.6708|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:22:21.9669|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:23:11.2935|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:23:11.4502|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:23:16.5315|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:23:16.5576|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:23:28.1522|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (AddEntity method) |url: https://localhost/api/Survey/add-entity|action: AddEntity|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.AddEntity
+2023-07-16 14:23:29.0952|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:23:29.1476|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:23:33.7951|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent(GetByIdMethod) |url: https://localhost/api/Survey/get-by-id/9|action: GetById|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetById
+2023-07-16 14:23:33.8568|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent(GetByIdMethod) |url: https://localhost/api/Survey/get-by-id/9|action: GetById|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetById
+2023-07-16 14:23:55.9894|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:23:56.0115|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:26:50.6948|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent(GetByIdMethod) |url: https://localhost/api/Survey/get-by-id/9|action: GetById|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetById
+2023-07-16 14:26:50.7003|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent(GetByIdMethod) |url: https://localhost/api/Survey/get-by-id/9|action: GetById|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetById
+2023-07-16 14:26:55.9689|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:26:55.9689|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:26:57.2890|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent(GetByIdMethod) |url: https://localhost/api/Survey/get-by-id/8|action: GetById|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetById
+2023-07-16 14:26:57.2922|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent(GetByIdMethod) |url: https://localhost/api/Survey/get-by-id/8|action: GetById|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetById
+2023-07-16 14:27:00.0725|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:27:00.0754|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:27:02.2072|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent(GetByIdMethod) |url: https://localhost/api/Survey/get-by-id/9|action: GetById|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetById
+2023-07-16 14:27:02.2146|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent(GetByIdMethod) |url: https://localhost/api/Survey/get-by-id/9|action: GetById|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetById
+2023-07-16 14:27:40.0899|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (AddEntity method) |url: https://localhost/api/Survey/add-entity|action: AddEntity|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.AddEntity
+2023-07-16 14:27:40.9329|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:27:40.9851|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:27:44.2205|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent(GetByIdMethod) |url: https://localhost/api/Survey/get-by-id/10|action: GetById|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetById
+2023-07-16 14:27:44.2307|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent(GetByIdMethod) |url: https://localhost/api/Survey/get-by-id/10|action: GetById|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetById
+2023-07-16 14:27:46.3887|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:27:46.3887|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:29:11.8400|20102|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (17ms) [Parameters=[@p2='?' (DbType = Double), @p3='?' (DbType = Double), @p4='?' (DbType = Int32), @p5='?' (DbType = Double)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "SurveyValues" ("Coord_X", "Coord_Y", "SurveyDataId", "Value")
+VALUES (@p2, @p3, @p4, @p5)
+RETURNING "Id"; |url: https://localhost/api/Survey/add-entity|action: AddEntity|Microsoft.EntityFrameworkCore.Diagnostics.Internal.RelationalCommandDiagnosticsLogger.LogCommandError
+2023-07-16 14:29:11.9007|10000|ERROR|Microsoft.EntityFrameworkCore.Update|An exception occurred in the database while saving changes for context type 'CRUD_Example.DAL.NPGSQL.EfContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: повторяющееся значение ключа нарушает ограничение уникальности "PK_SurveyValues"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|226_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ОШИБКА
+    SqlState: 23505
+    MessageText: повторяющееся значение ключа нарушает ограничение уникальности "PK_SurveyValues"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: SurveyValues
+    ConstraintName: PK_SurveyValues
+    File: nbtinsert.c
+    Line: 670
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken) Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: повторяющееся значение ключа нарушает ограничение уникальности "PK_SurveyValues"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|226_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ОШИБКА
+    SqlState: 23505
+    MessageText: повторяющееся значение ключа нарушает ограничение уникальности "PK_SurveyValues"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: SurveyValues
+    ConstraintName: PK_SurveyValues
+    File: nbtinsert.c
+    Line: 670
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)|url: https://localhost/api/Survey/add-entity|action: AddEntity|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`3.Log
+2023-07-16 14:29:12.0341|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|
+(E): Error in AddEntity method: Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: повторяющееся значение ключа нарушает ограничение уникальности "PK_SurveyValues"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|226_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ОШИБКА
+    SqlState: 23505
+    MessageText: повторяющееся значение ключа нарушает ограничение уникальности "PK_SurveyValues"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: SurveyValues
+    ConstraintName: PK_SurveyValues
+    File: nbtinsert.c
+    Line: 670
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at CRUD_Example.Data.PostgreeSQL.Services.SurveyService.AddEntity(SurveyData data) in D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.Data\Services\SurveyService.cs:line 80
+ |url: https://localhost/api/Survey/add-entity|action: AddEntity|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.AddEntity
+2023-07-16 14:29:12.8391|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:29:12.8826|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:29:24.5684|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:29:24.5897|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:29:46.1430|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:37:11.0530|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:37:11.1830|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:37:38.7784|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:37:38.7923|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:37:40.8636|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:37:40.9143|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:38:02.5272|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:38:02.5896|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:38:04.5840|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:38:04.5905|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:38:22.3259|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (AddEntity method) |url: https://localhost/api/Survey/add-entity|action: AddEntity|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.AddEntity
+2023-07-16 14:38:29.0727|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:38:29.0748|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:39:14.9268|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:39:14.9658|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:39:22.0139|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:39:22.0273|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:39:41.2570|20102|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (12ms) [Parameters=[@p2='?' (DbType = Double), @p3='?' (DbType = Double), @p4='?' (DbType = Int32), @p5='?' (DbType = Double)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "SurveyValues" ("Coord_X", "Coord_Y", "SurveyDataId", "Value")
+VALUES (@p2, @p3, @p4, @p5)
+RETURNING "Id"; |url: https://localhost/api/Survey/add-entity|action: AddEntity|Microsoft.EntityFrameworkCore.Diagnostics.Internal.RelationalCommandDiagnosticsLogger.LogCommandError
+2023-07-16 14:39:41.2645|10000|ERROR|Microsoft.EntityFrameworkCore.Update|An exception occurred in the database while saving changes for context type 'CRUD_Example.DAL.NPGSQL.EfContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: повторяющееся значение ключа нарушает ограничение уникальности "PK_SurveyValues"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|226_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ОШИБКА
+    SqlState: 23505
+    MessageText: повторяющееся значение ключа нарушает ограничение уникальности "PK_SurveyValues"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: SurveyValues
+    ConstraintName: PK_SurveyValues
+    File: nbtinsert.c
+    Line: 670
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken) Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: повторяющееся значение ключа нарушает ограничение уникальности "PK_SurveyValues"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|226_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ОШИБКА
+    SqlState: 23505
+    MessageText: повторяющееся значение ключа нарушает ограничение уникальности "PK_SurveyValues"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: SurveyValues
+    ConstraintName: PK_SurveyValues
+    File: nbtinsert.c
+    Line: 670
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)|url: https://localhost/api/Survey/add-entity|action: AddEntity|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`3.Log
+2023-07-16 14:39:41.3176|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|
+(E): Error in AddEntity method: Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: повторяющееся значение ключа нарушает ограничение уникальности "PK_SurveyValues"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|226_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ОШИБКА
+    SqlState: 23505
+    MessageText: повторяющееся значение ключа нарушает ограничение уникальности "PK_SurveyValues"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: SurveyValues
+    ConstraintName: PK_SurveyValues
+    File: nbtinsert.c
+    Line: 670
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at CRUD_Example.Data.PostgreeSQL.Services.SurveyService.AddEntity(SurveyData data) in D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.Data\Services\SurveyService.cs:line 80
+ |url: https://localhost/api/Survey/add-entity|action: AddEntity|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.AddEntity
+2023-07-16 14:39:42.2712|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:39:42.3114|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:40:04.8745|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:40:04.9018|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:40:23.9186|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (AddEntity method) |url: https://localhost/api/Survey/add-entity|action: AddEntity|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.AddEntity
+2023-07-16 14:40:25.0596|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:40:25.1016|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:40:35.1044|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:40:35.1044|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:40:51.0267|20102|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (2ms) [Parameters=[@p2='?' (DbType = Double), @p3='?' (DbType = Double), @p4='?' (DbType = Int32), @p5='?' (DbType = Double)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "SurveyValues" ("Coord_X", "Coord_Y", "SurveyDataId", "Value")
+VALUES (@p2, @p3, @p4, @p5)
+RETURNING "Id"; |url: https://localhost/api/Survey/add-entity|action: AddEntity|Microsoft.EntityFrameworkCore.Diagnostics.Internal.RelationalCommandDiagnosticsLogger.LogCommandError
+2023-07-16 14:40:51.0267|10000|ERROR|Microsoft.EntityFrameworkCore.Update|An exception occurred in the database while saving changes for context type 'CRUD_Example.DAL.NPGSQL.EfContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: повторяющееся значение ключа нарушает ограничение уникальности "PK_SurveyValues"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|226_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ОШИБКА
+    SqlState: 23505
+    MessageText: повторяющееся значение ключа нарушает ограничение уникальности "PK_SurveyValues"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: SurveyValues
+    ConstraintName: PK_SurveyValues
+    File: nbtinsert.c
+    Line: 670
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken) Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: повторяющееся значение ключа нарушает ограничение уникальности "PK_SurveyValues"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|226_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ОШИБКА
+    SqlState: 23505
+    MessageText: повторяющееся значение ключа нарушает ограничение уникальности "PK_SurveyValues"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: SurveyValues
+    ConstraintName: PK_SurveyValues
+    File: nbtinsert.c
+    Line: 670
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)|url: https://localhost/api/Survey/add-entity|action: AddEntity|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`3.Log
+2023-07-16 14:40:51.0831|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|
+(E): Error in AddEntity method: Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: повторяющееся значение ключа нарушает ограничение уникальности "PK_SurveyValues"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|226_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ОШИБКА
+    SqlState: 23505
+    MessageText: повторяющееся значение ключа нарушает ограничение уникальности "PK_SurveyValues"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: SurveyValues
+    ConstraintName: PK_SurveyValues
+    File: nbtinsert.c
+    Line: 670
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at CRUD_Example.Data.PostgreeSQL.Services.SurveyService.AddEntity(SurveyData data) in D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.Data\Services\SurveyService.cs:line 80
+ |url: https://localhost/api/Survey/add-entity|action: AddEntity|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.AddEntity
+2023-07-16 14:40:52.0093|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:40:52.0452|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:42:56.7150|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent(GetByIdMethod) |url: https://localhost/api/Survey/get-by-id/14|action: GetById|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetById
+2023-07-16 14:42:56.8252|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent(GetByIdMethod) |url: https://localhost/api/Survey/get-by-id/14|action: GetById|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetById
+2023-07-16 14:43:01.3591|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:43:01.3591|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:43:02.6238|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent(GetByIdMethod) |url: https://localhost/api/Survey/get-by-id/14|action: GetById|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetById
+2023-07-16 14:43:02.6238|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent(GetByIdMethod) |url: https://localhost/api/Survey/get-by-id/14|action: GetById|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetById
+2023-07-16 14:43:04.6259|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:43:04.6259|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:43:07.3153|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent(GetByIdMethod) |url: https://localhost/api/Survey/get-by-id/12|action: GetById|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetById
+2023-07-16 14:43:07.3242|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent(GetByIdMethod) |url: https://localhost/api/Survey/get-by-id/12|action: GetById|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetById
+2023-07-16 14:43:08.6722|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:43:08.6722|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:43:41.1121|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:44:13.4610|0|INFO|CRUD_Example.WEB_API|Log |url: |action: |Program.<Main>$
+2023-07-16 14:44:14.1549|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-07-16 14:44:14.1758|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-07-16 14:44:14.1758|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-07-16 14:53:24.8928|20102|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (38ms) [Parameters=[@p2='?' (DbType = Double), @p3='?' (DbType = Double), @p4='?' (DbType = Int32), @p5='?' (DbType = Double), @p6='?' (DbType = Double), @p7='?' (DbType = Double), @p8='?' (DbType = Int32), @p9='?' (DbType = Double), @p10='?' (DbType = Double), @p11='?' (DbType = Double), @p12='?' (DbType = Int32), @p13='?' (DbType = Double), @p14='?' (DbType = Double), @p15='?' (DbType = Double), @p16='?' (DbType = Int32), @p17='?' (DbType = Double)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "SurveyValues" ("Coord_X", "Coord_Y", "SurveyDataId", "Value")
+VALUES (@p2, @p3, @p4, @p5)
+RETURNING "Id";
+INSERT INTO "SurveyValues" ("Coord_X", "Coord_Y", "SurveyDataId", "Value")
+VALUES (@p6, @p7, @p8, @p9)
+RETURNING "Id";
+INSERT INTO "SurveyValues" ("Coord_X", "Coord_Y", "SurveyDataId", "Value")
+VALUES (@p10, @p11, @p12, @p13)
+RETURNING "Id";
+INSERT INTO "SurveyValues" ("Coord_X", "Coord_Y", "SurveyDataId", "Value")
+VALUES (@p14, @p15, @p16, @p17)
+RETURNING "Id"; |url: https://localhost/api/Survey/add-entity|action: AddEntity|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`6.Log
+2023-07-16 14:53:25.0022|10000|ERROR|Microsoft.EntityFrameworkCore.Update|An exception occurred in the database while saving changes for context type 'CRUD_Example.DAL.NPGSQL.EfContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: повторяющееся значение ключа нарушает ограничение уникальности "PK_SurveyValues"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|226_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ОШИБКА
+    SqlState: 23505
+    MessageText: повторяющееся значение ключа нарушает ограничение уникальности "PK_SurveyValues"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: SurveyValues
+    ConstraintName: PK_SurveyValues
+    File: nbtinsert.c
+    Line: 670
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken) Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: повторяющееся значение ключа нарушает ограничение уникальности "PK_SurveyValues"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|226_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ОШИБКА
+    SqlState: 23505
+    MessageText: повторяющееся значение ключа нарушает ограничение уникальности "PK_SurveyValues"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: SurveyValues
+    ConstraintName: PK_SurveyValues
+    File: nbtinsert.c
+    Line: 670
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)|url: https://localhost/api/Survey/add-entity|action: AddEntity|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`3.Log
+2023-07-16 14:53:25.0819|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|
+(E): Error in AddEntity method: Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: повторяющееся значение ключа нарушает ограничение уникальности "PK_SurveyValues"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|226_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ОШИБКА
+    SqlState: 23505
+    MessageText: повторяющееся значение ключа нарушает ограничение уникальности "PK_SurveyValues"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: SurveyValues
+    ConstraintName: PK_SurveyValues
+    File: nbtinsert.c
+    Line: 670
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at CRUD_Example.Data.PostgreeSQL.Services.SurveyService.AddEntity(SurveyData data) in D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example.Data\Services\SurveyService.cs:line 80
+ |url: https://localhost/api/Survey/add-entity|action: AddEntity|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.AddEntity
+2023-07-16 14:53:59.0110|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:53:59.7024|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:54:02.9157|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:54:02.9327|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:58:29.3130|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (AddEntity method) |url: https://localhost/api/Survey/add-entity|action: AddEntity|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.AddEntity
+2023-07-16 14:58:30.1001|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:58:30.1407|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:58:32.7140|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent(GetByIdMethod) |url: https://localhost/api/Survey/get-by-id/17|action: GetById|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetById
+2023-07-16 14:58:32.7477|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent(GetByIdMethod) |url: https://localhost/api/Survey/get-by-id/17|action: GetById|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetById
+2023-07-16 14:58:35.3331|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:58:35.3392|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:58:36.6711|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent(GetByIdMethod) |url: https://localhost/api/Survey/get-by-id/17|action: GetById|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetById
+2023-07-16 14:58:36.6711|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent(GetByIdMethod) |url: https://localhost/api/Survey/get-by-id/17|action: GetById|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetById
+2023-07-16 14:58:38.7938|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:58:38.8081|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:58:40.0435|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent(GetByIdMethod) |url: https://localhost/api/Survey/get-by-id/14|action: GetById|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetById
+2023-07-16 14:58:40.0596|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent(GetByIdMethod) |url: https://localhost/api/Survey/get-by-id/14|action: GetById|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetById
+2023-07-16 14:58:41.9217|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:58:41.9327|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:58:43.3502|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent(GetByIdMethod) |url: https://localhost/api/Survey/get-by-id/12|action: GetById|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetById
+2023-07-16 14:58:43.3554|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent(GetByIdMethod) |url: https://localhost/api/Survey/get-by-id/12|action: GetById|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetById
+2023-07-16 14:58:45.1129|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:58:45.1207|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 14:58:46.8068|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent(GetByIdMethod) |url: https://localhost/api/Survey/get-by-id/17|action: GetById|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetById
+2023-07-16 14:58:46.8098|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent(GetByIdMethod) |url: https://localhost/api/Survey/get-by-id/17|action: GetById|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetById
+2023-07-16 15:00:25.5579|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 15:00:25.6708|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 15:00:27.8624|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 15:00:27.9062|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 15:00:29.6929|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent(GetByIdMethod) |url: https://localhost/api/Survey/get-by-id/17|action: GetById|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetById
+2023-07-16 15:00:29.6987|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent(GetByIdMethod) |url: https://localhost/api/Survey/get-by-id/17|action: GetById|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetById
+2023-07-16 15:00:31.8571|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 15:00:31.8708|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 15:00:33.3832|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent(GetByIdMethod) |url: https://localhost/api/Survey/get-by-id/1|action: GetById|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetById
+2023-07-16 15:00:33.3869|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent(GetByIdMethod) |url: https://localhost/api/Survey/get-by-id/1|action: GetById|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetById
+2023-07-16 15:00:35.6539|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 15:00:35.6539|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 15:00:37.4207|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent(GetByIdMethod) |url: https://localhost/api/Survey/get-by-id/9|action: GetById|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetById
+2023-07-16 15:00:37.4511|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent(GetByIdMethod) |url: https://localhost/api/Survey/get-by-id/9|action: GetById|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetById
+2023-07-16 15:00:43.8044|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 15:00:43.8112|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 15:00:57.6225|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 15:00:57.6360|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 15:01:03.1637|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent(GetByIdMethod) |url: https://localhost/api/Survey/get-by-id/17|action: GetById|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetById
+2023-07-16 15:01:03.1679|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent(GetByIdMethod) |url: https://localhost/api/Survey/get-by-id/17|action: GetById|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetById
+2023-07-16 15:01:07.2206|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 15:01:07.2206|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 15:01:08.5210|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent(GetByIdMethod) |url: https://localhost/api/Survey/get-by-id/14|action: GetById|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetById
+2023-07-16 15:01:08.5275|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent(GetByIdMethod) |url: https://localhost/api/Survey/get-by-id/14|action: GetById|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetById
+2023-07-16 15:01:10.2493|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 15:01:10.2493|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 15:01:12.7550|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent(GetByIdMethod) |url: https://localhost/api/Survey/get-by-id/17|action: GetById|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetById
+2023-07-16 15:01:12.7611|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent(GetByIdMethod) |url: https://localhost/api/Survey/get-by-id/17|action: GetById|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetById
+2023-07-16 15:12:09.4502|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 19:11:09.8451|0|INFO|CRUD_Example.WEB_API|Log |url: |action: |Program.<Main>$
+2023-07-16 19:11:10.7124|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-07-16 19:11:10.7345|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-07-16 19:11:10.7505|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-07-16 19:11:30.8320|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 19:11:33.8903|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 19:12:10.4243|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (AddEntity method) |url: https://localhost/api/Survey/add-entity|action: AddEntity|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.AddEntity
+2023-07-16 19:12:11.0952|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 19:12:11.1495|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 19:12:13.8756|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent(GetByIdMethod) |url: https://localhost/api/Survey/get-by-id/18|action: GetById|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetById
+2023-07-16 19:12:13.9349|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent(GetByIdMethod) |url: https://localhost/api/Survey/get-by-id/18|action: GetById|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetById
+2023-07-16 19:12:18.1559|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 19:12:18.1559|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 19:12:26.0069|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent(GetByIdMethod) |url: https://localhost/api/Survey/get-by-id/18|action: GetById|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetById
+2023-07-16 19:12:26.0180|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent(GetByIdMethod) |url: https://localhost/api/Survey/get-by-id/18|action: GetById|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetById
+2023-07-16 19:15:57.3131|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 19:15:57.3618|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 19:16:00.0538|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 19:16:00.1192|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 19:16:02.4342|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent(GetByIdMethod) |url: https://localhost/api/Survey/get-by-id/18|action: GetById|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetById
+2023-07-16 19:16:02.4530|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent(GetByIdMethod) |url: https://localhost/api/Survey/get-by-id/18|action: GetById|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetById
+2023-07-16 19:16:06.2507|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 19:16:06.2507|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 19:16:07.7367|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent(GetByIdMethod) |url: https://localhost/api/Survey/get-by-id/17|action: GetById|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetById
+2023-07-16 19:16:07.7519|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent(GetByIdMethod) |url: https://localhost/api/Survey/get-by-id/17|action: GetById|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetById
+2023-07-16 19:16:10.1720|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 19:16:10.1843|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 19:16:50.1778|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (AddEntity method) |url: https://localhost/api/Survey/add-entity|action: AddEntity|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.AddEntity
+2023-07-16 19:16:51.5820|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 19:16:51.6491|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 19:30:48.7051|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent(GetByIdMethod) |url: https://localhost/api/Survey/get-by-id/19|action: GetById|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetById
+2023-07-16 19:30:48.8936|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent(GetByIdMethod) |url: https://localhost/api/Survey/get-by-id/19|action: GetById|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetById
+2023-07-16 19:30:51.0238|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-16 19:30:51.0309|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll

@@ -1,0 +1,6 @@
+2023-07-17 17:44:37.2823|0|INFO|CRUD_Example.WEB_API|Log |url: |action: |Program.<Main>$
+2023-07-17 17:44:39.9138|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-07-17 17:44:39.9718|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-07-17 17:44:39.9718|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-07-17 17:44:50.1087|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll
+2023-07-17 17:44:53.5114|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) |url: https://localhost/api/Survey/get-all|action: GetAll|CRUD_Example.Data.PostgreeSQL.Services.SurveyService.GetAll

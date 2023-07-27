@@ -18,6 +18,10 @@ namespace CRUD_Example.DAL.NPGSQL
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<SurveyData>().HasMany(p => p.Values).WithOne();
+
+            modelBuilder.Entity<SurveyData>().HasKey(entity => entity.Id);
+
+            modelBuilder.Entity<SurveyValue>().HasKey(entity => entity.Id);
         }
     }
 }

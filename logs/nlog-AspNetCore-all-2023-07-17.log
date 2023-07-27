@@ -1,0 +1,318 @@
+2023-07-17 17:44:37.2823|0|INFO|CRUD_Example.WEB_API|Log 
+2023-07-17 17:44:37.6732|4|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with no compiled views. 
+2023-07-17 17:44:37.7191|12|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2023-07-17 17:44:37.8258|63|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Joe\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-07-17 17:44:39.3975|1|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2023-07-17 17:44:39.4114|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Joe\AppData\Local\ASP.NET\DataProtection-Keys\key-035a95ba-dfc9-41ca-a3bc-e4d76005e8a5.xml'. 
+2023-07-17 17:44:39.4468|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Joe\AppData\Local\ASP.NET\DataProtection-Keys\key-08ffd06e-1c60-4e98-9ba7-26d0e1b1024b.xml'. 
+2023-07-17 17:44:39.4468|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Joe\AppData\Local\ASP.NET\DataProtection-Keys\key-14efe11d-a79b-41d4-ad02-1697253649d4.xml'. 
+2023-07-17 17:44:39.4493|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Joe\AppData\Local\ASP.NET\DataProtection-Keys\key-cc7cd04e-95e7-4c23-9524-3168f250d12f.xml'. 
+2023-07-17 17:44:39.4493|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Joe\AppData\Local\ASP.NET\DataProtection-Keys\key-d566d694-7de5-4012-98c3-7f073ee2f8b5.xml'. 
+2023-07-17 17:44:39.4493|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Joe\AppData\Local\ASP.NET\DataProtection-Keys\key-d773c006-43cf-4502-aac7-aaa18a5b1da5.xml'. 
+2023-07-17 17:44:39.4493|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Joe\AppData\Local\ASP.NET\DataProtection-Keys\key-e401f7ac-e8d1-48ba-8f49-54feee25205f.xml'. 
+2023-07-17 17:44:39.4670|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {035a95ba-dfc9-41ca-a3bc-e4d76005e8a5}. 
+2023-07-17 17:44:39.4835|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {08ffd06e-1c60-4e98-9ba7-26d0e1b1024b}. 
+2023-07-17 17:44:39.4835|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {14efe11d-a79b-41d4-ad02-1697253649d4}. 
+2023-07-17 17:44:39.4835|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {cc7cd04e-95e7-4c23-9524-3168f250d12f}. 
+2023-07-17 17:44:39.4835|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {d566d694-7de5-4012-98c3-7f073ee2f8b5}. 
+2023-07-17 17:44:39.4835|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {d773c006-43cf-4502-aac7-aaa18a5b1da5}. 
+2023-07-17 17:44:39.4835|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {e401f7ac-e8d1-48ba-8f49-54feee25205f}. 
+2023-07-17 17:44:39.5013|13|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {d566d694-7de5-4012-98c3-7f073ee2f8b5} with expiration date 2023-10-14 08:43:08Z as default key. 
+2023-07-17 17:44:39.5013|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2023-07-17 17:44:39.5119|51|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI. 
+2023-07-17 17:44:39.5119|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2023-07-17 17:44:39.5270|4|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2023-07-17 17:44:39.5270|3|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2023-07-17 17:44:39.5270|2|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {d566d694-7de5-4012-98c3-7f073ee2f8b5} as the default key. 
+2023-07-17 17:44:39.5270|65|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {d566d694-7de5-4012-98c3-7f073ee2f8b5} was loaded during application startup. 
+2023-07-17 17:44:39.9138|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly CRUD_Example.WEB_API 
+2023-07-17 17:44:39.9138|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2023-07-17 17:44:39.9138|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2023-07-17 17:44:39.9138|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-07-17 17:44:39.9718|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-07-17 17:44:39.9718|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\codes\C#\TPr\ASP.NET_CRUD_Example\CRUD_Example_BACKEND 
+2023-07-17 17:44:39.9718|2|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2023-07-17 17:44:40.0763|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44387/swagger - - 
+2023-07-17 17:44:40.3530|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2023-07-17 17:44:40.3530|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-07-17 17:44:40.4741|1000|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger' 
+2023-07-17 17:44:40.4817|2|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-07-17 17:44:40.8319|1|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18302628904424177666" disconnecting. 
+2023-07-17 17:44:40.8576|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44387/swagger/index.html - - 
+2023-07-17 17:44:40.8576|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-07-17 17:44:40.8576|1000|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html' 
+2023-07-17 17:44:40.8576|2|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-07-17 17:44:40.9301|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44387/swagger - - - 301 - - 801.0329ms 
+2023-07-17 17:44:42.5902|1|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection. 
+2023-07-17 17:44:42.6187|2|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection. 
+2023-07-17 17:44:42.6213|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44387/swagger/index.html - - - 200 - text/html;charset=utf-8 1763.6922ms 
+2023-07-17 17:44:42.6213|1|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18374686502757072898" disconnecting. 
+2023-07-17 17:44:42.6854|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44387/swagger/swagger-ui-bundle.js - - 
+2023-07-17 17:44:42.7519|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-07-17 17:44:42.7519|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44387/swagger/swagger-ui-standalone-preset.js - - 
+2023-07-17 17:44:42.7519|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44387/_framework/aspnetcore-browser-refresh.js - - 
+2023-07-17 17:44:42.7519|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44387/swagger/swagger-ui.css - - 
+2023-07-17 17:44:42.7519|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-07-17 17:44:42.7519|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-07-17 17:44:42.7519|1000|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/swagger-ui.css' 
+2023-07-17 17:44:42.7519|1000|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/swagger-ui-bundle.js' 
+2023-07-17 17:44:42.7519|1000|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js' 
+2023-07-17 17:44:42.7519|2|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-07-17 17:44:42.7519|2|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-07-17 17:44:42.7519|2|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-07-17 17:44:42.7628|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44387/_framework/aspnetcore-browser-refresh.js - - - 200 12009 application/javascript;+charset=utf-8 9.9807ms 
+2023-07-17 17:44:42.7628|0|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2023-07-17 17:44:42.7628|0|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2023-07-17 17:44:42.7628|0|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2023-07-17 17:44:42.7973|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2023-07-17 17:44:42.7973|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+2023-07-17 17:44:42.7973|1|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18230571318976184346" disconnecting. 
+2023-07-17 17:44:42.7973|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44387/swagger/swagger-ui.css - - - 200 144929 text/css 54.5869ms 
+2023-07-17 17:44:42.8119|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+2023-07-17 17:44:42.9177|1|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18302628904424177668" disconnecting. 
+2023-07-17 17:44:42.9177|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44387/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 166.6049ms 
+2023-07-17 17:44:42.9177|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44387/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 234.1903ms 
+2023-07-17 17:44:42.9177|1|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18374686481282236432" disconnecting. 
+2023-07-17 17:44:43.1245|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44387/_vs/browserLink - - 
+2023-07-17 17:44:44.7769|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44387/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 1652.5014ms 
+2023-07-17 17:44:44.7769|1|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18302628904424177670" disconnecting. 
+2023-07-17 17:44:44.8743|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44387/swagger/v1/swagger.json - - 
+2023-07-17 17:44:44.8743|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-07-17 17:44:44.8743|1000|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json' 
+2023-07-17 17:44:44.8743|2|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-07-17 17:44:45.2134|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44387/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 338.9391ms 
+2023-07-17 17:44:45.2134|1|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18374686481282236434" disconnecting. 
+2023-07-17 17:44:49.2751|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44387/api/Survey/get-all - - 
+2023-07-17 17:44:49.2751|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-07-17 17:44:49.2964|1001|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Survey/get-all' 
+2023-07-17 17:44:49.2964|1005|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'CRUD_Example.WEB_API.Controllers.SurveyController.GetAll (CRUD_Example.WEB_API)' with route pattern 'api/Survey/get-all' is valid for the request path '/api/Survey/get-all' 
+2023-07-17 17:44:49.2964|1|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'CRUD_Example.WEB_API.Controllers.SurveyController.GetAll (CRUD_Example.WEB_API)' 
+2023-07-17 17:44:49.3168|2|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:3000'. 
+2023-07-17 17:44:49.3168|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-07-17 17:44:49.3247|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CRUD_Example.WEB_API.Controllers.SurveyController.GetAll (CRUD_Example.WEB_API)' 
+2023-07-17 17:44:49.4170|102|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAll", controller = "Survey"}. Executing controller action with signature System.Threading.Tasks.Task`1[CRUD_Example.Core.Responses.Response] GetAll() on controller CRUD_Example.WEB_API.Controllers.SurveyController (CRUD_Example.WEB_API). 
+2023-07-17 17:44:49.4340|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2023-07-17 17:44:49.4340|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2023-07-17 17:44:49.4340|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2023-07-17 17:44:49.4340|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2023-07-17 17:44:49.4340|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter, Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2023-07-17 17:44:49.4340|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-07-17 17:44:49.4340|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-07-17 17:44:49.4554|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller CRUD_Example.WEB_API.Controllers.SurveyController (CRUD_Example.WEB_API) 
+2023-07-17 17:44:50.0616|10401|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework. 
+2023-07-17 17:44:50.1022|2|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller CRUD_Example.WEB_API.Controllers.SurveyController (CRUD_Example.WEB_API) 
+2023-07-17 17:44:50.1022|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-07-17 17:44:50.1022|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-07-17 17:44:50.1022|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-07-17 17:44:50.1022|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-07-17 17:44:50.1087|101|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method CRUD_Example.WEB_API.Controllers.SurveyController.GetAll (CRUD_Example.WEB_API) - Validation state: Valid 
+2023-07-17 17:44:50.1087|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) 
+2023-07-17 17:44:51.2521|10600|DEBUG|Microsoft.EntityFrameworkCore.Model.Validation|The property 'SurveyValue.SurveyDataId' was created in shadow state because there are no eligible CLR members with a matching name. 
+2023-07-17 17:44:51.6224|10403|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.1 initialized 'EfContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.1+bb6fc9a54b5214588485d0c178bcbc3c84f18479' with options: None 
+2023-07-17 17:44:51.6903|10111|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<SurveyData>()
+    .Include(x => x.Values)' 
+2023-07-17 17:44:51.7892|10112|DEBUG|Microsoft.EntityFrameworkCore.Query|Including navigation: 'SurveyData.Values'. 
+2023-07-17 17:44:52.3814|10107|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<SurveyData>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Client Projections:
+            0 -> Dictionary<IProperty, int> { [Property: SurveyData.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: SurveyData.AnomalyType (string), 1], [Property: SurveyData.Description (string), 2] }
+            1 -> 0
+            2 -> Dictionary<IProperty, int> { [Property: SurveyValue.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 3], [Property: SurveyValue.Coord_X (double) Required, 4], [Property: SurveyValue.Coord_Y (double) Required, 5], [Property: SurveyValue.SurveyDataId (no field, int?) Shadow FK Index, 6], [Property: SurveyValue.Value (double) Required, 7] }
+            3 -> 3
+        SELECT s.Id, s.AnomalyType, s.Description, s0.Id, s0.Coord_X, s0.Coord_Y, s0.SurveyDataId, s0.Value
+        FROM SurveyDatas AS s
+        LEFT JOIN SurveyValues AS s0 ON s.Id == s0.SurveyDataId
+        ORDER BY s.Id ASC), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, SurveyData>, 
+    CRUD_Example.DAL.NPGSQL.EfContext, 
+    False, 
+    False, 
+    True
+)' 
+2023-07-17 17:44:52.4664|20103|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2023-07-17 17:44:52.4664|20005|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2023-07-17 17:44:52.6020|20006|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (124ms). 
+2023-07-17 17:44:52.6166|20104|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (148ms). 
+2023-07-17 17:44:52.6166|20106|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (158ms). 
+2023-07-17 17:44:52.6260|20000|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'LastProject' on server ''. 
+2023-07-17 17:44:53.1351|20001|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'LastProject' on server 'tcp://localhost:5432'. 
+2023-07-17 17:44:53.1528|20100|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT s."Id", s."AnomalyType", s."Description", s0."Id", s0."Coord_X", s0."Coord_Y", s0."SurveyDataId", s0."Value"
+FROM "SurveyDatas" AS s
+LEFT JOIN "SurveyValues" AS s0 ON s."Id" = s0."SurveyDataId"
+ORDER BY s."Id" 
+2023-07-17 17:44:53.2198|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (73ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT s."Id", s."AnomalyType", s."Description", s0."Id", s0."Coord_X", s0."Coord_Y", s0."SurveyDataId", s0."Value"
+FROM "SurveyDatas" AS s
+LEFT JOIN "SurveyValues" AS s0 ON s."Id" = s0."SurveyDataId"
+ORDER BY s."Id" 
+2023-07-17 17:44:53.2931|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyData' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.3696|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.3961|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyData' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.3961|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.3961|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.3961|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyData' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.3961|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.3961|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.3961|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyData' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.3961|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.3961|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyData' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.3961|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.3961|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.3961|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.3961|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyData' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.3961|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.3961|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyData' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.3961|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.3961|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyData' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.3961|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.3961|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyData' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.3961|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.3961|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyData' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.3961|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.3961|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyData' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.3961|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.3961|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyData' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.3961|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.4134|20301|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'LastProject' on server 'tcp://localhost:5432'. 
+2023-07-17 17:44:53.4331|20300|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'LastProject' on server 'tcp://localhost:5432' is being disposed after spending 202ms reading results. 
+2023-07-17 17:44:53.4331|20002|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'LastProject' on server 'tcp://localhost:5432'. 
+2023-07-17 17:44:53.4515|20003|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'LastProject' on server '' (9ms). 
+2023-07-17 17:44:53.4515|103|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method CRUD_Example.WEB_API.Controllers.SurveyController.GetAll (CRUD_Example.WEB_API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3345.2469ms. 
+2023-07-17 17:44:53.4515|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-07-17 17:44:53.4515|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-07-17 17:44:53.4515|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-07-17 17:44:53.4515|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-07-17 17:44:53.4515|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-07-17 17:44:53.4515|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-07-17 17:44:53.4515|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-07-17 17:44:53.4515|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-07-17 17:44:53.4515|5|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2023-07-17 17:44:53.4681|11|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2023-07-17 17:44:53.4681|4|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation. 
+2023-07-17 17:44:53.4681|8|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2023-07-17 17:44:53.4681|10|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2023-07-17 17:44:53.4681|2|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2023-07-17 17:44:53.4681|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'CRUD_Example.Core.Responses.Response'. 
+2023-07-17 17:44:53.5042|6|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2023-07-17 17:44:53.5042|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-07-17 17:44:53.5042|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-07-17 17:44:53.5042|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-07-17 17:44:53.5042|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-07-17 17:44:53.5042|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-07-17 17:44:53.5042|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-07-17 17:44:53.5042|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44387/api/Survey/get-all - - 
+2023-07-17 17:44:53.5042|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-07-17 17:44:53.5042|1001|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Survey/get-all' 
+2023-07-17 17:44:53.5042|1005|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'CRUD_Example.WEB_API.Controllers.SurveyController.GetAll (CRUD_Example.WEB_API)' with route pattern 'api/Survey/get-all' is valid for the request path '/api/Survey/get-all' 
+2023-07-17 17:44:53.5114|1|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'CRUD_Example.WEB_API.Controllers.SurveyController.GetAll (CRUD_Example.WEB_API)' 
+2023-07-17 17:44:53.5114|2|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:3000'. 
+2023-07-17 17:44:53.5114|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2023-07-17 17:44:53.5114|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CRUD_Example.WEB_API.Controllers.SurveyController.GetAll (CRUD_Example.WEB_API)' 
+2023-07-17 17:44:53.5114|105|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CRUD_Example.WEB_API.Controllers.SurveyController.GetAll (CRUD_Example.WEB_API) in 4070.3578ms 
+2023-07-17 17:44:53.5114|102|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAll", controller = "Survey"}. Executing controller action with signature System.Threading.Tasks.Task`1[CRUD_Example.Core.Responses.Response] GetAll() on controller CRUD_Example.WEB_API.Controllers.SurveyController (CRUD_Example.WEB_API). 
+2023-07-17 17:44:53.5114|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2023-07-17 17:44:53.5114|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2023-07-17 17:44:53.5114|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CRUD_Example.WEB_API.Controllers.SurveyController.GetAll (CRUD_Example.WEB_API)' 
+2023-07-17 17:44:53.5114|1|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18302628887244308483" disconnecting. 
+2023-07-17 17:44:53.5114|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2023-07-17 17:44:53.5114|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2023-07-17 17:44:53.5114|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter, Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2023-07-17 17:44:53.5114|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-07-17 17:44:53.5114|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-07-17 17:44:53.5114|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller CRUD_Example.WEB_API.Controllers.SurveyController (CRUD_Example.WEB_API) 
+2023-07-17 17:44:53.5114|2|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller CRUD_Example.WEB_API.Controllers.SurveyController (CRUD_Example.WEB_API) 
+2023-07-17 17:44:53.5114|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-07-17 17:44:53.5114|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-07-17 17:44:53.5114|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-07-17 17:44:53.5114|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-07-17 17:44:53.5114|101|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method CRUD_Example.WEB_API.Controllers.SurveyController.GetAll (CRUD_Example.WEB_API) - Validation state: Valid 
+2023-07-17 17:44:53.5114|10407|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'EfContext' disposed. 
+2023-07-17 17:44:53.5114|0|INFO|CRUD_Example.Data.PostgreeSQL.Services.SurveyService|(S): Response has been sent (GetAllMethod) 
+2023-07-17 17:44:53.5352|20007|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'LastProject' on server ''. 
+2023-07-17 17:44:53.5352|20008|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database 'LastProject' on server '' (5ms). 
+2023-07-17 17:44:53.5352|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44387/api/Survey/get-all - - - 200 - application/json;+charset=utf-8 4267.2422ms 
+2023-07-17 17:44:53.5654|10403|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.1 initialized 'EfContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.1+bb6fc9a54b5214588485d0c178bcbc3c84f18479' with options: None 
+2023-07-17 17:44:53.5749|20103|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2023-07-17 17:44:53.5749|20005|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2023-07-17 17:44:53.5749|20006|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms). 
+2023-07-17 17:44:53.5749|20104|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (2ms). 
+2023-07-17 17:44:53.5749|20106|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (3ms). 
+2023-07-17 17:44:53.5749|20000|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'LastProject' on server ''. 
+2023-07-17 17:44:53.5749|20001|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'LastProject' on server 'tcp://localhost:5432'. 
+2023-07-17 17:44:53.5749|20100|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT s."Id", s."AnomalyType", s."Description", s0."Id", s0."Coord_X", s0."Coord_Y", s0."SurveyDataId", s0."Value"
+FROM "SurveyDatas" AS s
+LEFT JOIN "SurveyValues" AS s0 ON s."Id" = s0."SurveyDataId"
+ORDER BY s."Id" 
+2023-07-17 17:44:53.5749|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT s."Id", s."AnomalyType", s."Description", s0."Id", s0."Coord_X", s0."Coord_Y", s0."SurveyDataId", s0."Value"
+FROM "SurveyDatas" AS s
+LEFT JOIN "SurveyValues" AS s0 ON s."Id" = s0."SurveyDataId"
+ORDER BY s."Id" 
+2023-07-17 17:44:53.5749|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyData' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.5749|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.5912|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyData' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.5912|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.5912|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.5912|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyData' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.5912|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.5912|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.5912|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyData' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.5912|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.5912|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyData' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.5912|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.5912|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.5912|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.5912|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyData' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.5912|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.5912|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyData' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.5912|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.5912|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyData' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.5912|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.5912|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyData' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.5912|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.5912|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyData' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.5912|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.5912|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyData' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.5912|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.5912|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyData' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.5912|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'EfContext' started tracking 'SurveyValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-07-17 17:44:53.5912|20301|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'LastProject' on server 'tcp://localhost:5432'. 
+2023-07-17 17:44:53.5912|20300|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'LastProject' on server 'tcp://localhost:5432' is being disposed after spending 12ms reading results. 
+2023-07-17 17:44:53.5912|20002|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'LastProject' on server 'tcp://localhost:5432'. 
+2023-07-17 17:44:53.5912|20003|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'LastProject' on server '' (0ms). 
+2023-07-17 17:44:53.5912|103|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method CRUD_Example.WEB_API.Controllers.SurveyController.GetAll (CRUD_Example.WEB_API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 82.5189ms. 
+2023-07-17 17:44:53.5912|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-07-17 17:44:53.5912|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-07-17 17:44:53.5912|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-07-17 17:44:53.5912|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-07-17 17:44:53.6049|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-07-17 17:44:53.6049|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-07-17 17:44:53.6049|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-07-17 17:44:53.6049|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-07-17 17:44:53.6049|5|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2023-07-17 17:44:53.6049|11|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2023-07-17 17:44:53.6049|4|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation. 
+2023-07-17 17:44:53.6049|8|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2023-07-17 17:44:53.6049|10|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2023-07-17 17:44:53.6049|2|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2023-07-17 17:44:53.6049|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'CRUD_Example.Core.Responses.Response'. 
+2023-07-17 17:44:53.6049|6|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2023-07-17 17:44:53.6049|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-07-17 17:44:53.6049|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-07-17 17:44:53.6049|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-07-17 17:44:53.6049|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-07-17 17:44:53.6049|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-07-17 17:44:53.6049|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-07-17 17:44:53.6049|105|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CRUD_Example.WEB_API.Controllers.SurveyController.GetAll (CRUD_Example.WEB_API) in 99.5625ms 
+2023-07-17 17:44:53.6049|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CRUD_Example.WEB_API.Controllers.SurveyController.GetAll (CRUD_Example.WEB_API)' 
+2023-07-17 17:44:53.6049|10407|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'EfContext' disposed. 
+2023-07-17 17:44:53.6049|1|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18374686502757072900" disconnecting. 
+2023-07-17 17:44:53.6049|20007|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'LastProject' on server ''. 
+2023-07-17 17:44:53.6049|20008|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database 'LastProject' on server '' (0ms). 
+2023-07-17 17:44:53.6049|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44387/api/Survey/get-all - - - 200 - application/json;+charset=utf-8 109.9798ms 

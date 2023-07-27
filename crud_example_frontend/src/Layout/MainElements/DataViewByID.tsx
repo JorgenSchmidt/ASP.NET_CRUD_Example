@@ -34,6 +34,7 @@ export default class DataViewByID extends Component {
     }
 
     getElementFromResponse() {
+        this.element.Values = [];
         this.element.Id             = this.response.body[0].id;
         this.element.AnomalyType    = this.response.body[0].anomalyType;
         this.element.Description    = this.response.body[0].description;
@@ -56,7 +57,7 @@ export default class DataViewByID extends Component {
                     <div className='displayElements-DataViewByID'>
                         <p className='font-small'>X : {currentObj.Coord_X}</p>
                         <p className='font-small'>Y : {currentObj.Coord_Y}</p>
-                        <p className='font-small'>Value : {currentObj.Value}</p>
+                        <p className='font-small'>Значение : {currentObj.Value}</p>
                     </div>
                 );
             }

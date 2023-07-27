@@ -19,3 +19,25 @@
     user-select: none;
     cursor:pointer;
 }
+
+.rulebutton {
+    display: inline-block;
+
+    margin: 1%;
+    margin-top: 3%;
+    padding-top: 0.7%;
+    padding-bottom: 0.7%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 12px;
+
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor:pointer;
+}

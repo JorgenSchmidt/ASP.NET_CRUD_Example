@@ -32,7 +32,6 @@ namespace CRUD_Example.WEB_API.Controllers
         [HttpPost("add-entity")]
         public async Task<Response> AddEntity([FromBody]SurveyData data)
         {
-
             return await _service.AddEntity(data);
         }
 
