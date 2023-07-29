@@ -4,6 +4,8 @@ import axios from "axios";
 import "./MainElements.css";
 import SurveyData from '../Entites/SurveyData';
 import SurveyValues from '../Entites/SurveyValues';
+import { NavLink } from "react-router-dom";
+import { EventButton } from '../Buttons/EventButton';
 
 export default class DataViewByID extends Component {
 
@@ -23,10 +25,26 @@ export default class DataViewByID extends Component {
     }
 
     async getResponse() {
-        return axios.get(BackendAdress + "/Survey/get-by-id/" + this.getCurrentPage())
+        return await axios.get(BackendAdress + "/Survey/get-by-id/" + this.getCurrentPage())
         .then(response => this.setState(
             this.response = response.data
         ))
+        .catch 
+    }
+
+    async deleteCurrentElement (id: string) {
+        await axios.delete(
+            BackendAdress + "/Survey/delete-entity/" + id
+        ).then(
+            async function () {
+                document.location = await "/"
+            }
+        ).catch (
+            async function (error) {
+                console.log(error)
+                alert(error)
+            }
+        )
     }
 
     getCurrentPage = () => {
@@ -55,8 +73,8 @@ export default class DataViewByID extends Component {
             (currentObj) => {
                 return(
                     <div className='displayElements-DataViewByID'>
-                        <p className='font-small'>X : {currentObj.Coord_X}</p>
-                        <p className='font-small'>Y : {currentObj.Coord_Y}</p>
+                        <p className='font-small'>X : {currentObj.coord_X}</p>
+                        <p className='font-small'>Y : {currentObj.coord_Y}</p>
                         <p className='font-small'>Значение : {currentObj.Value}</p>
                     </div>
                 );
@@ -67,16 +85,32 @@ export default class DataViewByID extends Component {
     }
 
     render () {
-        console.log(this.response)
-        console.log(this.element)
+        let id = this.getCurrentPage()
         if (this.response !== null) {
             if (this.response.status === 200 && this.response.body.length !== 0) {
                 this.getElementFromResponse()
                 return (
                     <div className='mainElements-DataViewByID'>
-                        <p className="font-medium"> Тип аномалии: {this.element.AnomalyType} </p>
-                        <p className='font-small'> Описание: {this.element.Description}</p>
+                        <p className="font-medium font-center"> Тип аномалии: {this.element.AnomalyType} </p>
+                        <p className='font-small font-center'> Описание: {this.element.Description}</p>
+                        <p className='font-small font-bold font-smallmargin'> Имеющиеся данные: </p>
                         {this.parseValListToDisplayElements()}
+                        <div className='font-center'>
+                            <NavLink to = {"/update/" + id} >
+                                <div className='rulebutton'>
+                                    <p className='font-nomargin font-small font-smallbold'>
+                                        Обновить элемент
+                                    </p>
+                                </div>
+                            </NavLink>
+                            <EventButton 
+                                content = "Удалить элемент"
+                                eventname = { async () => {
+                                        this.deleteCurrentElement(id) 
+                                    }
+                                }
+                            />
+                        </div>
                     </div>
                 )
             }

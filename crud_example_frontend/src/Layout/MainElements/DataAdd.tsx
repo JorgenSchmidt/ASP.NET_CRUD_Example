@@ -61,7 +61,6 @@ class DataAdd extends Component {
 
     async sendRequest () 
     {
-        await console.log(this.DataAddEntities)
         await axios.post (
             BackendAdress + "/Survey/add-entity",
             {

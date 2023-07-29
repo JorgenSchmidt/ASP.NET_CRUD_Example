@@ -35,7 +35,7 @@ namespace CRUD_Example.WEB_API.Controllers
             return await _service.AddEntity(data);
         }
 
-        [HttpPost("update-entity")]
+        [HttpPut("update-entity")]
         public async Task<Response> UpdateEntity([FromBody]SurveyData data)
         {
             return await _service.UpdateEntity(data);

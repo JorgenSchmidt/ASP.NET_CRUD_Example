@@ -5,6 +5,7 @@ import { NavButton } from './Buttons/NavButton';
 import DataAdd from './MainElements/DataAdd';
 import DataView from './MainElements/DataView';
 import DataViewByID from './MainElements/DataViewByID';
+import DataUpdate from './MainElements/DataUpdate';
 
 class App extends Component {
   render() {
@@ -44,6 +45,7 @@ class App extends Component {
             <Route path="/" element={<DataView/>}/>
             <Route path="el/:name" element={<DataViewByID/>}/>
             <Route path="/add" element={<DataAdd/>}/>
+            <Route path="/update/:name" element = {<DataUpdate/>}/>
           </Routes>
         </div>
 

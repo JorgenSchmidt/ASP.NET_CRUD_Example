@@ -12,6 +12,18 @@ code {
     monospace;
 }
 
+.font-smallmargin {
+  margin: 1%;
+}
+
+.font-midmargin {
+  margin: 3%;
+}
+
+.font-bigmargin {
+  margin: 5%;
+}
+
 .font-center {
   text-align: center;
 }
